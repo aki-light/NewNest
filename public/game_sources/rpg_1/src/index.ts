@@ -2,6 +2,8 @@ import GameManager from './managers/GameManager';
 import StartScene from './scenes/StartScene';
 import * as WebFont from 'webfontloader';
 import Resource from './Resources';
+import getConfig from "next/config";
+const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 export default class StartGame {
     public static startGame(): void {
@@ -10,7 +12,7 @@ export default class StartGame {
                 families: [
                     Resource.FontFamily.Default
                 ],
-                urls: ['/font.css']
+                urls: [`${publicRuntimeConfig.staticFolder}/font.css`]
             },
             active: () => {
                 StartGame.initGame();
