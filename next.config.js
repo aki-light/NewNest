@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath : process.env.GITHUB_PAGES ? '/nextjs_sample' : '',
-  assetPrefix : process.env.GITHUB_PAGES ? "/nextjs_sample/" : ""
+  basePath : process.env.GITHUB_PAGES ? '/NewNest' : '',
+  assetPrefix : process.env.GITHUB_PAGES ? "/NewNest/" : ""
 }
 
 module.exports = nextConfig
