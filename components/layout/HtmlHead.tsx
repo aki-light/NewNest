@@ -1,4 +1,6 @@
 import Head from "next/head";
+import getConfig from "next/config";
+const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 export default function HtmlHead({ title }: { title: string }) {
   return (
@@ -13,7 +15,7 @@ export default function HtmlHead({ title }: { title: string }) {
       <link
         rel="shortcut icon"
         type="image/x-icon"
-        href="/images/favicon.ico"
+        href={`${publicRuntimeConfig.staticFolder}/images/favicon.ico`}
       />
     </Head>
   );

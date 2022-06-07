@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import getConfig from "next/config";
+const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 type GameIntroProps = {
   gameUrl: string;
@@ -18,7 +20,12 @@ export default function GameIntro({
     <div className="my-5 mr-1 w-64">
       <Link href={gameUrl}>
         <a>
-          <img src={imageUrl} width={256} height={256} alt="" />
+          <img
+            src={`${publicRuntimeConfig.staticFolder}${imageUrl}`}
+            width={256}
+            height={256}
+            alt=""
+          />
         </a>
       </Link>
       <Link href={gameUrl}>
