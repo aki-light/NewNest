@@ -1,0 +1,33 @@
+{
+    "nodes": [
+      {
+        "id": "talk_scene_bg",
+        "type": "sprite",
+        "position": [0, 0],
+        "params": {
+          "textureName": "ui/talk_scene_bg.png",
+          "url": "ui/talk_scene_bg.png",
+          "scale": [1.0, 1.0]
+        }
+      },
+      {
+        "id": "skip_button",
+        "type": "sprite",
+        "position": [520, 10],
+        "params": {
+          "textureName": "ui/skip_button.png",
+          "url": "ui/skip_button.png",
+          "scale": [0.9, 0.9]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onSkipButtonTapped",
+              "arguments": []
+            }
+          ],
+        "interactive": true,
+        "buttonMode": true
+      }
+    ]
+  }

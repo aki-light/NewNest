@@ -1,0 +1,112 @@
+{
+    "nodes": [
+      {
+        "id": "difficulty",
+        "type": "text",
+        "position": [220, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Difficulty",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "difficulty_easy",
+        "type": "text",
+        "position": [420, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Easy",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        },
+        "invisible": true 
+      },
+      {
+        "id": "difficulty_normal",
+        "type": "text",
+        "position": [420, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Normal",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        },
+        "invisible": true
+      },
+      {
+        "id": "difficulty_hard",
+        "type": "text",
+        "position": [420, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Hard",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        },
+        "invisible": true 
+      },
+      {
+        "id": "cp_text",
+        "type": "text",
+        "position": [220, 330],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Combat Power",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "turn_text",
+        "type": "text",
+        "position": [220, 380],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Number of turns",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "boss_hp_text",
+        "type": "text",
+        "position": [220, 430],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Boss remaining HP",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

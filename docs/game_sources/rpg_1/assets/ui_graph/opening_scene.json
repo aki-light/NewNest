@@ -1,0 +1,55 @@
+{
+    "nodes": [
+      {
+        "id": "next_button",
+        "type": "sprite",
+        "position": [320, 550],
+        "params": {
+          "textureName": "ui/arrow_next.png",
+          "url": "ui/arrow_next.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "showInventoryScene",
+              "arguments": []
+            }
+          ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "opening_text",
+        "type": "text",
+        "position": [320, 275],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ここはかつて魔法が存在した世界。所有者が最後 に使用した魔法を記憶するという伝説の指輪に込 められた究極の魔法を求めて帝国が各国を侵略し 始めた。あなたが所属するギルドは戦争を終わら せるために皇帝の暗殺計画を実行した。そして、 数々の犠牲を払いついにあなたは皇帝のもとにた どりついた．．．",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 500
+        }
+      },
+      {
+        "id": "opening_text_en",
+        "type": "text",
+        "position": [320, 275],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "This is the world where magic once existed. The empire began to invade each country in search of the ultimate magic contained in the legendary ring that remembers the last magic used by the owner. The guild you belong to has carried out an assassination plan for the emperor to end the war. And at last you have reached the emperor at the cost of many sacrifices...",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 500
+        }
+      }
+    ]
+  }
+  

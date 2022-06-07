@@ -1,0 +1,1325 @@
+{
+    "nodes": [
+      {
+        "id": "door_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ther is a door.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "nothing_special",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is nothing special.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "desk_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a desk.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "tv_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a TV.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "bed_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a bed.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_tin_statue",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got a tin figure",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "serching",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・・・・・・・・・・・・・",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "gas_stove_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a gas stove with an oven.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "gas_stove_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "it seems that the gas stove works.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "tin_statue_melted",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a coin came out of the tin figure, when you melted it with the oven.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_coin",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the coin.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "can_not_use",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "it is not likely usable.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "vending_machine_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a banana vending machine.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_banana",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've bought a banana with the coin.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "has_no_item",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you have nothing.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "freezer_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "it seems that this is a freezer.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "freeze_banana",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've frozen the banana.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "cabinet_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a cabinet.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "cabinet_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is salt in the cabinet.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_salt",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the salt.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "barrel_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a barrel full of water.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "barrel_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a small key with a float at the bottom of the barrel and the key is slightly floating.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "put_salt_in_barrel",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "the key started floating to the surface, when you put the salt into the barrel.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_desk_key",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the small key.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "locked",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "this is locked.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "unlock",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've unlocked the drawer.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "there_is_pencil",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a new pencil.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_pencil",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the new pencil.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "grinder_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a grinder.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "grind_pencil",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've ground the pencil with the grinder.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_sharpened_pencil",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the ground pencil.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "closet_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a closet.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_hand_mirror",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got a hand mirror.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_detergent",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got a detergent.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "something_on_closet",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is something on the closet.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "have_a_fun",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "it was a little fun.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_car_key",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got a dirty key.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "mirror_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a mirror",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "mirror_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "the mirror is very dirty.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "mirror_message_3",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a message on my face that says 'look at your back.'",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "mirror_message_4",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "MPLUS1p-Regular",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "washed_mirror",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've cleaned the mirror with the detergent.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "car_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a car.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "moved_car",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've moved the car.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "safe_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a safe embedded on the floor.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "safe_opened",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "the safe has opened.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "there_is_crossbow",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a crossbow in the safe.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "wrong_code",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "it seems that you've entered wrong codes",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "get_crossbow",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the crossbow",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "balloon_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a big balloon is floating.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "find_nail",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've found nails in the baloon after you had shot the ballon down with the crossbow and the pencil.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "get_nail",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the nails.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "broken_chair_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a broken chair.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "chair_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a chair.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "fix_chair",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've fixed the broken chair with the frozen banana and the nails.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "clock_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a clock, but it is so high that you can't reach it.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "clock_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a clock.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "clock_message_3",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you will be able to reach it if you stand on the chair.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "bowl_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a dog bowl.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "pig_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a pig in front of a door.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "pig_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a pig is staring at a dog bowl.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "not_move",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "the pig won't move.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "moved_pig",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "the pig moved to the dog bowl after you had set the clock at 12 and the clock had rung.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "there_is_dvd",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a DVD disk in the drawer.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "get_dvd",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you've got the DVD disk.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "watched_dvd",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "the 12 o'clock signal on the clock rang and someone was feeding the pig on the TV.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "book_shelf_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "there is a book titled 'hints'.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "hint_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Seawater has greater buoyancy between freshwater and seawater",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "hint_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "The melting temperature of metal varies greatly depending on the type of metal",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "start_escape",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you found yourself in a strange room ...",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "wake_message_1",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "With a sense of relief you woke up in bed.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "wake_message_2",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "you feel like you had a strange dream, but you can hardly remember anything.",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "wake_message_3",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "And soon your thoughts move away from your dream and you go back to your daily routine ...",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "thanks_message",
+        "type": "message",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Congratulations on your escape! And thank you so much for playing!",
+          "size": 28,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "tin_statue_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a figure made of tin",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "coin_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a coin that was in the tin figurine",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "banana_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "just a banana",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "salt_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "salt that was in the cabinet",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "frozen_banana_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a frozen banana that is pretty hard",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "desk_key_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a small key that was at the bottom of the barrel",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "pencil_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a new pencil tha was in the desk drawer",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "sharpened_pencil_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a sharply sharpened pencil",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "hand_mirror_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "an ordinary hand mirror that was under the pillow",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "detergent_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "an acid detergent that was in the closet",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "car_key_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a dirty key that was on the closet",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "crossbow_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a small crossbow that was in the safe",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "nail_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "nails that was inside the balloon",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "dvd_text",
+        "type": "menu_text",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "a DVD disc that was in the desk drawer",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }
+  

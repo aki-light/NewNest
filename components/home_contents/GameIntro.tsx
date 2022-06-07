@@ -18,7 +18,7 @@ export default function GameIntro({
     <div className="my-5 mr-1 w-64">
       <Link href={gameUrl}>
         <a>
-          <Image src={imageUrl} width={256} height={256} alt=""></Image>
+          <img src={imageUrl} width={256} height={256} alt="" />
         </a>
       </Link>
       <Link href={gameUrl}>

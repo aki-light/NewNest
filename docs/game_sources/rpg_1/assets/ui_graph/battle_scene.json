@@ -1,0 +1,1403 @@
+{
+    "nodes": [
+      {
+        "id": "boss",
+        "type": "sprite",
+        "type2": "boss",
+        "position": [320, 280],
+        "params": {
+          "textureName": "ui/boss.png",
+          "url": "ui/boss.png",
+          "scale": [0.75, 0.75],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "battle_button",
+        "type": "sprite",
+        "type2": "first_select",
+        "position": [120, 550],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onBattleButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "item_button",
+        "type": "sprite",
+        "type2": "first_select",
+        "position": [320, 550],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemButtonTapped",
+            "arguments": []
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "escape_button",
+        "type": "sprite",
+        "type2": "first_select",
+        "position": [520, 550],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEscapeButtonTapped",
+            "arguments": []
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "attack_button",
+        "type": "sprite",
+        "type2": "battle_select",
+        "position": [120, 510],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onAttackButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "skill_button",
+        "type": "sprite",
+        "type2": "battle_select",
+        "position": [320, 510],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillButtonTapped",
+            "arguments": []
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "guard_button",
+        "type": "sprite",
+        "type2": "battle_select",
+        "position": [520, 510],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onGuardButtonTapped",
+            "arguments": []
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "return_button",
+        "type": "sprite",
+        "type2": "battle_select",
+        "position": [320, 590],
+        "params": {
+          "textureName": "ui/yellow_button.png",
+          "url": "ui/yellow_button.png",
+          "scale": [0.75, 0.75],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onReturnButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "battle_scene_text",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "critical_text",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Critical!",
+          "size": 28,
+          "color": "0xff5627",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "boss_state",
+        "type": "text",
+        "position": [320, 150],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "test test test",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "hp",
+        "type": "text",
+        "position": [30, 30],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "HP",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fp",
+        "type": "text",
+        "position": [30, 60],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "FP",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "back_to_title_frame",
+        "type": "nine_slice",
+        "type2": "back_to_title",
+        "position": [170, 210],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [300, 200],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "yes_button",
+        "type": "sprite",
+        "type2": "back_to_title",
+        "position": [250, 350],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.6, 0.6],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "showTitleScene",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "no_button",
+        "type": "sprite",
+        "type2": "back_to_title",
+        "position": [390, 350],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.6, 0.6],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onEscapeButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "item_frame",
+        "type": "nine_slice",
+        "type2": "item",
+        "position": [30, 130],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [580, 300],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "item_caption_frame",
+        "type": "sprite",
+        "type2": "item",
+        "position": [385, 490],
+        "params": {
+          "textureName": "ui/item_caption_frame.png",
+          "url": "ui/item_caption_frame.png",
+          "scale": [0.4, 0.65],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "item_window",
+        "type": "sprite",
+        "type2": "item",
+        "position": [135, 490],
+        "params": {
+          "textureName": "ui/window.png",
+          "url": "ui/window.png",
+          "scale": [0.6, 0.6],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "item_texture",
+        "type": "sprite",
+        "type2": "item",
+        "position": [135, 490],
+        "params": {
+          "textureName": "items/potion3_04.png",
+          "url": "items/potion3_04.png",
+          "scale": [0.25, 0.25],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "item_caption",
+        "type": "text",
+        "type2": "item",
+        "position": [385, 490],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "test test test",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "page_next_1",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [360, 400],
+        "params": {
+          "textureName": "ui/arrow_next.png",
+          "url": "ui/arrow_next.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPageButtonTapped",
+            "arguments": [2]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "page_prev_1",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [280, 400],
+        "params": {
+          "textureName": "ui/arrow_prev_2.png",
+          "url": "ui/arrow_prev_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "page_next_2",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [360, 400],
+        "params": {
+          "textureName": "ui/arrow_next_2.png",
+          "url": "ui/arrow_next_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "page_prev_2",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [280, 400],
+        "params": {
+          "textureName": "ui/arrow_prev.png",
+          "url": "ui/arrow_prev.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPageButtonTapped",
+            "arguments": [1]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_marker_1",
+        "type": "sprite",
+        "type2": "item",
+        "position": [65, 180],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_2",
+        "type": "sprite",
+        "type2": "item",
+        "position": [65, 250],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_3",
+        "type": "sprite",
+        "type2": "item",
+        "position": [65, 320],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_4",
+        "type": "sprite",
+        "type2": "item",
+        "position": [330, 180],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_5",
+        "type": "sprite",
+        "type2": "item",
+        "position": [330, 250],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_6",
+        "type": "sprite",
+        "type2": "item",
+        "position": [330, 320],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_1_x",
+        "type": "text",
+        "type2": "item",
+        "position": [263, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "✕",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_2_x",
+        "type": "text",
+        "type2": "item",
+        "position": [263, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "✕",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_3_x",
+        "type": "text",
+        "type2": "item",
+        "position": [263, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "✕",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_4_x",
+        "type": "text",
+        "type2": "item",
+        "position": [528, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "✕",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_5_x",
+        "type": "text",
+        "type2": "item",
+        "position": [528, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "✕",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_6_x",
+        "type": "text",
+        "type2": "item",
+        "position": [528, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "✕",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_1_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [285, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "0",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_2_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [285, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_3_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [285, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_4_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [550, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_5_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [550, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_6_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [550, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_7_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [285, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_8_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [285, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_9_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [285, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_10_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [550, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_11_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [550, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_12_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [550, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_page_return_button",
+        "type": "sprite",
+        "type2": "item",
+        "position": [450, 590],
+        "params": {
+          "textureName": "ui/yellow_button.png",
+          "url": "ui/yellow_button.png",
+          "scale": [0.75, 0.75],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onReturnButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "item_use_button",
+        "type": "sprite",
+        "type2": "item",
+        "position": [190, 590],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onItemUseButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "skill_frame",
+        "type": "nine_slice",
+        "type2": "skill",
+        "position": [30, 130],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [580, 300],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "skill_caption_frame",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [320, 490],
+        "params": {
+          "textureName": "ui/item_caption_frame.png",
+          "url": "ui/item_caption_frame.png",
+          "scale": [0.63, 0.65],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "skill_caption",
+        "type": "text",
+        "type2": "skill",
+        "position": [320, 490],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "test test test",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 500
+        }
+      },
+      {
+        "id": "skill_marker_1",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [65, 190],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "skill_marker_2",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [65, 270],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "skill_marker_3",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [65, 350],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "skill_marker_4",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [330, 190],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "skill_marker_5",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [330, 270],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "skill_marker_6",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [330, 350],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "skill_page_return_button",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [450, 590],
+        "params": {
+          "textureName": "ui/yellow_button.png",
+          "url": "ui/yellow_button.png",
+          "scale": [0.75, 0.75],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onSkillReturnButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "skill_use_button",
+        "type": "sprite",
+        "type2": "skill",
+        "position": [190, 590],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onSkillUseButtonTapped",
+              "arguments": []
+            }
+        ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "hit_down",
+        "type": "sprite",
+        "position": [105, 100],
+        "params": {
+          "textureName": "ui/hit_down.png",
+          "url": "ui/hit_down.png",
+          "scale": [0.18, 0.18],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "defense_down",
+        "type": "sprite",
+        "position": [155, 100],
+        "params": {
+          "textureName": "ui/defense_down.png",
+          "url": "ui/defense_down.png",
+          "scale": [0.16, 0.16],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "attack_up",
+        "type": "sprite",
+        "position": [200, 100],
+        "params": {
+          "textureName": "ui/attack_up.png",
+          "url": "ui/attack_up.png",
+          "scale": [0.16, 0.16],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "critical_up",
+        "type": "sprite",
+        "position": [250, 100],
+        "params": {
+          "textureName": "ui/critical_up.png",
+          "url": "ui/critical_up.png",
+          "scale": [0.16, 0.16],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "dv_up",
+        "type": "sprite",
+        "position": [50, 100],
+        "params": {
+          "textureName": "ui/dv_up.png",
+          "url": "ui/dv_up.png",
+          "scale": [0.18, 0.18],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "player_hp",
+        "type": "text",
+        "position": [280, 28],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "9999",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "player_fp",
+        "type": "text",
+        "position": [280, 59],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "9999",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "status_frame",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [575, 105],
+        "params": {
+          "textureName": "ui/window.png",
+          "url": "ui/window.png",
+          "scale": [0.6, 1.05],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "cp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 35],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "3700",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 55],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "500",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 75],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "500",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "atk",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 95],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "def",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 115],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "dv",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 135],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 155],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "crit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 175],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "max_hp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 55],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1200",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_fp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 75],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1200",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_atk",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 95],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_def",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 115],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_dv",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 135],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_hit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 155],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_crit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [595, 175],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "cp_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 35],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "CP",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hp_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 55],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "HP",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fp_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 75],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "FP",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "attack_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 95],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ATK",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "defense_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 115],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "DEF",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "dv_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 135],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "DV",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hit_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 155],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "HIT",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "crit_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [555, 175],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "CRIT",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "boss_hp",
+        "type": "text",
+        "position": [420, 350],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "15000",
+          "size": 24,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "turn",
+        "type": "text",
+        "position": [350, 30],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 24,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      }
+    ]
+  }

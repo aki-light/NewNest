@@ -1,0 +1,87 @@
+{"frames": {
+
+"normal_attack-1.png":
+{
+	"frame": {"x":166,"y":79,"w":58,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":1,"w":58,"h":58},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-2.png":
+{
+	"frame": {"x":1,"y":175,"w":64,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":8,"w":64,"h":63},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-3.png":
+{
+	"frame": {"x":85,"y":172,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":14,"w":69,"h":69},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-4.png":
+{
+	"frame": {"x":91,"y":1,"w":76,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":20,"w":76,"h":76},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-5.png":
+{
+	"frame": {"x":1,"y":91,"w":82,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":26,"w":82,"h":82},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-6.png":
+{
+	"frame": {"x":1,"y":1,"w":88,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":32,"w":88,"h":88},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-7.png":
+{
+	"frame": {"x":85,"y":91,"w":79,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":41,"w":79,"h":79},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-8.png":
+{
+	"frame": {"x":156,"y":172,"w":68,"h":67},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":51,"w":68,"h":67},
+	"sourceSize": {"w":120,"h":120}
+},
+"normal_attack-9.png":
+{
+	"frame": {"x":169,"y":1,"w":33,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":59,"w":33,"h":46},
+	"sourceSize": {"w":120,"h":120}
+}},
+"animations": {
+	"normal_attack": ["normal_attack-1.png","normal_attack-2.png","normal_attack-3.png","normal_attack-4.png","normal_attack-5.png","normal_attack-6.png","normal_attack-7.png","normal_attack-8.png","normal_attack-9.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "normal_attack.png",
+	"format": "RGBA8888",
+	"size": {"w":225,"h":242},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:63f4bb3f185675f618d9c7f4add74531:6540a2fe95ff4fd525b1dc299bb77e0d:114a969227809270dc11dc78f5e8ab0f$"
+}
+}

@@ -1,0 +1,88 @@
+{"frames": {
+
+"magic_tool_3_7.png":
+{
+	"frame": {"x":1,"y":965,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_8.png":
+{
+	"frame": {"x":643,"y":965,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_9.png":
+{
+	"frame": {"x":1285,"y":965,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_12.png":
+{
+	"frame": {"x":1,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_13.png":
+{
+	"frame": {"x":643,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_14.png":
+{
+	"frame": {"x":1285,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_20.png":
+{
+	"frame": {"x":1,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_21.png":
+{
+	"frame": {"x":643,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"magic_tool_3_22.png":
+{
+	"frame": {"x":1285,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+}},
+"animations": {
+	"magic_tool_3": ["magic_tool_3_7.png","magic_tool_3_8.png","magic_tool_3_9.png","magic_tool_3_12.png","magic_tool_3_13.png","magic_tool_3_14.png","magic_tool_3_20.png","magic_tool_3_21.png","magic_tool_3_22.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "magic_tool_3-2.png",
+	"format": "RGBA8888",
+	"size": {"w":1926,"h":1446},
+	"scale": "1",
+	"related_multi_packs": [ "magic_tool_3-0.json", "magic_tool_3-1.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:374ff5b6381cfd5a33a6195e8546bbec:ac1ec2c67333d9f40aef86dc1bf233e6:e34f18166c4de190c949502ab1ce4233$"
+}
+}

@@ -1,0 +1,26 @@
+{
+    "nodes": [
+      {
+        "id": "title_bg",
+        "type": "sprite",
+        "position": [0, 0],
+        "params": {
+          "textureName": "ui/title_bg.png",
+          "url": "ui/title_bg.png",
+          "scale": [0.64, 0.64]
+        }
+      },
+      {
+        "id": "start_button",
+        "type": "sprite",
+        "position": [320, 320],
+        "params": {
+          "textureName": "ui/touch_to_start.png",
+          "url": "ui/touch_to_start.png",
+          "scale": [0.8, 0.8],
+          "anchor": [0.5, 0.5]
+        }
+      }
+    ]
+  }
+  

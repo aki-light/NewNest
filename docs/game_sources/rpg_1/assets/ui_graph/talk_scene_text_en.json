@@ -1,0 +1,274 @@
+{
+    "nodes": [
+      {
+        "id": "player_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "You",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Emperor",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Finally.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "You've been waiting for me?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "How long I've waited for this moment.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Did you really want me to kill you that badly?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "I was waiting for that bracelet, not you.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(for The bracelet from the last request to the guild?)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_4",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "You've been waiting for this bracelet?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_4",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Yes, that's exactly what I've been looking for.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_5",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "I thought you were looking for the ring.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_5",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Legends change little by little over time.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_6",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "In fact, it wasn't a ring at all, but a bracelet.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_7",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "And I've decided to have you bring it here.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_6",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Why do you have to go through all that trouble?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_8",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "The bracelet chooses its owner, and only the owner can use its power.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_9",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "And the only way to become the owner of that bracelet is to prove your power against it.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_10",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "End of story. Let's get started.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

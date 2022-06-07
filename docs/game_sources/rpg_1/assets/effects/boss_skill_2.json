@@ -1,0 +1,95 @@
+{"frames": {
+
+"boss_skill_2_1.png":
+{
+	"frame": {"x":1480,"y":403,"w":111,"h":200},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":280,"y":77,"w":111,"h":200},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_2.png":
+{
+	"frame": {"x":1187,"y":403,"w":291,"h":246},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":93,"y":21,"w":291,"h":246},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_3.png":
+{
+	"frame": {"x":798,"y":403,"w":368,"h":387},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":2,"w":368,"h":387},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_4.png":
+{
+	"frame": {"x":403,"y":403,"w":393,"h":388},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":5,"w":393,"h":388},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_5.png":
+{
+	"frame": {"x":1,"y":1,"w":400,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_6.png":
+{
+	"frame": {"x":403,"y":1,"w":400,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_7.png":
+{
+	"frame": {"x":805,"y":1,"w":400,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_8.png":
+{
+	"frame": {"x":1207,"y":1,"w":400,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_9.png":
+{
+	"frame": {"x":1609,"y":1,"w":400,"h":400},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":400},
+	"sourceSize": {"w":400,"h":400}
+},
+"boss_skill_2_10.png":
+{
+	"frame": {"x":1,"y":403,"w":399,"h":400},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":399,"h":400},
+	"sourceSize": {"w":400,"h":400}
+}},
+"animations": {
+	"boss_skill_2": ["boss_skill_2_1.png","boss_skill_2_2.png","boss_skill_2_3.png","boss_skill_2_4.png","boss_skill_2_5.png","boss_skill_2_6.png","boss_skill_2_7.png","boss_skill_2_8.png","boss_skill_2_9.png","boss_skill_2_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boss_skill_2.png",
+	"format": "RGBA8888",
+	"size": {"w":2010,"h":803},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:09f8382c2f824c9ed60e8ce06bcd71ae:099db90a0e42a8938939ef669a150221:ef598c924e48ce258d3bed8355a186a4$"
+}
+}

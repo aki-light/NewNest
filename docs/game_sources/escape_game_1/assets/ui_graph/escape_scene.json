@@ -1,0 +1,601 @@
+{
+  "nodes": [
+    {
+      "id": "bgm_volume_up",
+      "type": "sprite",
+      "position": [370, 130],
+      "params": {
+        "textureName": "ui/volume_up.png",
+        "url": "ui/volume_up.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onBgmArrowTapped",
+            "arguments": [0.01]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "bgm_volume_down",
+      "type": "sprite",
+      "position": [270, 130],
+      "params": {
+        "textureName": "ui/volume_down.png",
+        "url": "ui/volume_down.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onBgmArrowTapped",
+            "arguments": [-0.01]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "se_volume_up",
+      "type": "sprite",
+      "position": [370, 250],
+      "params": {
+        "textureName": "ui/volume_up.png",
+        "url": "ui/volume_up.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSeArrowTapped",
+            "arguments": [0.1]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "se_volume_down",
+      "type": "sprite",
+      "position": [270, 250],
+      "params": {
+        "textureName": "ui/volume_down.png",
+        "url": "ui/volume_down.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSeArrowTapped",
+            "arguments": [-0.1]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "sound_option_frame",
+      "type": "sprite",
+      "position": [320, 180],
+      "params": {
+        "textureName": "ui/sound_option_frame.png",
+        "url": "ui/sound_option_frame.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      }
+    },
+    {
+      "id": "bgm_volume",
+      "type": "text",
+      "position": [320, 130],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "0",
+        "size": 24,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "se_volume",
+      "type": "text",
+      "position": [320, 250],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "0",
+        "size": 24,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "bgm",
+      "type": "text",
+      "position": [320, 70],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "BGM",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "se",
+      "type": "text",
+      "position": [320, 190],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "SE",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "pin_pad",
+      "type": "sprite",
+      "position": [320, 180],
+      "params": {
+        "textureName": "ui/pin_pad.png",
+        "url": "ui/pin_pad.png",
+        "scale": [0.3, 0.3],
+        "anchor": [0.5, 0.5]
+      }
+    },
+    {
+      "id": "code_first",
+      "type": "text",
+      "position": [280, 55],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "code_second",
+      "type": "text",
+      "position": [320, 55],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "code_third",
+      "type": "text",
+      "position": [360, 55],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "pad_cancel",
+      "type": "sprite",
+      "position": [248, 317],
+      "params": {
+        "textureName": "ui/pad_cancel.png",
+        "url": "ui/pad_cancel.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadCancelTapped",
+            "arguments": []
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_enter",
+      "type": "sprite",
+      "position": [384, 317],
+      "params": {
+        "textureName": "ui/pad_enter.png",
+        "url": "ui/pad_enter.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadEnterTapped",
+            "arguments": []
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_0",
+      "type": "sprite",
+      "position": [316, 317],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [0]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_1",
+      "type": "sprite",
+      "position": [248, 119],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [1]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_2",
+      "type": "sprite",
+      "position": [316, 119],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [2]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_3",
+      "type": "sprite",
+      "position": [384, 119],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [3]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_4",
+      "type": "sprite",
+      "position": [248, 185],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [4]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_5",
+      "type": "sprite",
+      "position": [316, 185],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [5]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_6",
+      "type": "sprite",
+      "position": [384, 185],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [6]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_7",
+      "type": "sprite",
+      "position": [248, 251],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [7]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_8",
+      "type": "sprite",
+      "position": [316, 251],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [8]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "pad_9",
+      "type": "sprite",
+      "position": [384, 251],
+      "params": {
+        "textureName": "ui/pad.png",
+        "url": "ui/pad.png",
+        "scale": [0.29, 0.29],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPinPadTapped",
+            "arguments": [9]
+          }
+        ],
+      "interactive": true
+    },
+    {
+      "id": "car_key",
+      "type": "item_panel",
+      "position": [69, 40],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 1,
+        "itemTextId": "car_key_text",
+        "optionId": "use_car_key"
+      },
+      "interactive": true
+    },
+    {
+      "id": "desk_key",
+      "type": "item_panel",
+      "position": [198, 40],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 2,
+        "itemTextId": "desk_key_text",
+        "optionId": "use_desk_key"
+      },
+      "interactive": true
+    },
+    {
+      "id": "banana",
+      "type": "item_panel",
+      "position": [326, 40],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 3,
+        "itemTextId": "banana_text",
+        "optionId": "use_banana"
+      },
+      "interactive": true
+    },
+    {
+      "id": "pencil",
+      "type": "item_panel",
+      "position": [454, 40],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 4,
+        "itemTextId": "pencil_text",
+        "optionId": "use_pencil"
+      },
+      "interactive": true
+    },
+    {
+      "id": "nail",
+      "type": "item_panel",
+      "position": [582, 40],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 5,
+        "itemTextId": "nail_text",
+        "optionId": "use_nail"
+      },
+      "interactive": true
+    },
+    {
+      "id": "salt",
+      "type": "item_panel",
+      "position": [711, 40],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 6,
+        "itemTextId": "salt_text",
+        "optionId": "use_salt"
+      },
+      "interactive": true
+    },
+    {
+      "id": "tin_statue",
+      "type": "item_panel",
+      "position": [69, 110],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 7,
+        "itemTextId": "tin_statue_text",
+        "optionId": "use_tin_statue"
+      },
+      "interactive": true
+    },
+    {
+      "id": "coin",
+      "type": "item_panel",
+      "position": [198, 110],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 8,
+        "itemTextId": "coin_text",
+        "optionId": "use_coin"
+      },
+      "interactive": true
+    },
+    {
+      "id": "crossbow",
+      "type": "item_panel",
+      "position": [326, 110],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 9,
+        "itemTextId": "crossbow_text",
+        "optionId": "use_crossbow"
+      },
+      "interactive": true
+    },
+    {
+      "id": "detergent",
+      "type": "item_panel",
+      "position": [454, 110],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 10,
+        "itemTextId": "detergent_text",
+        "optionId": "use_detergent"
+      },
+      "interactive": true
+    },
+    {
+      "id": "hand_mirror",
+      "type": "item_panel",
+      "position": [582, 110],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 11,
+        "itemTextId": "hand_mirror_text",
+        "optionId": "use_hand_mirror"
+      },
+      "interactive": true
+    },
+    {
+      "id": "dvd",
+      "type": "item_panel",
+      "position": [711, 110],
+      "params": {
+        "textureName": "items/no_item.png",
+        "url": "items/no_item.png",
+        "scale": [1.0, 1.0],
+        "anchor": [0.5, 0.5],
+        "itemType": 12,
+        "itemTextId": "dvd_text",
+        "optionId": "use_dvd"
+      },
+      "interactive": true
+    }
+  ]
+}

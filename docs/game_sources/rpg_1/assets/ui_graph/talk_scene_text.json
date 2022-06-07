@@ -1,0 +1,274 @@
+{
+    "nodes": [
+      {
+        "id": "player_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "あなた",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "皇帝",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "やっときたか",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "待っていてくれたのか？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "この時をどれだけ待ち望んだことか",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "そんなに俺に殺されたかったのか？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "お前ではなく、そのブレスレットを待っていたのだ",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "（最後のギルドへの依頼で手に入れたこのブレスレットを？）",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_4",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "これを待っていた？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_4",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "そうだ、それこそが私が探し求めていたもの",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_5",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "お前は指輪を探していたのではなかったのか？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_5",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "伝説というのは長い間に少しづつ変わっていくものだ",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_6",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "実際には指輪ではなくブレスレットだったのだ",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_7",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "そして、それをお前にここへ運んできてもらうことにした",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "player_message_6",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "なぜそんな回りくどいことを",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_8",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ブレスレットは持ち主を選び、持ち主にしか その力を使うことはできない",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_9",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "そして、そのブレスレットの所有者になる方法は己の力を ブレスレットに対して証明することのみ",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_message_10",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "話は終わりだ、始めよう",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

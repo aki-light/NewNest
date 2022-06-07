@@ -1,0 +1,64 @@
+{"frames": {
+
+"player_skill_6_4.png":
+{
+	"frame": {"x":1,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_5.png":
+{
+	"frame": {"x":643,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_6.png":
+{
+	"frame": {"x":1285,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_12.png":
+{
+	"frame": {"x":1,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_13.png":
+{
+	"frame": {"x":643,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_14.png":
+{
+	"frame": {"x":1285,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+}},
+"animations": {
+	"player_skill_6": ["player_skill_6_4.png","player_skill_6_5.png","player_skill_6_6.png","player_skill_6_12.png","player_skill_6_13.png","player_skill_6_14.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "player_skill_6-1.png",
+	"format": "RGBA8888",
+	"size": {"w":1926,"h":964},
+	"scale": "1",
+	"related_multi_packs": [ "player_skill_6-0.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:ce317d4f3791ba2708fe8a0dd7fa6162:a0ddc92c13e67aa6cd0e0706effc5a6d:7c24e4bbc89691348e3a164ee180271d$"
+}
+}

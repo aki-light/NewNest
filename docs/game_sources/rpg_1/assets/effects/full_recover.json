@@ -1,0 +1,95 @@
+{"frames": {
+
+"full_recover_1.png":
+{
+	"frame": {"x":1,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_2.png":
+{
+	"frame": {"x":245,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_3.png":
+{
+	"frame": {"x":367,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_4.png":
+{
+	"frame": {"x":489,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_5.png":
+{
+	"frame": {"x":611,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_6.png":
+{
+	"frame": {"x":733,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_7.png":
+{
+	"frame": {"x":855,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_8.png":
+{
+	"frame": {"x":977,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_9.png":
+{
+	"frame": {"x":1099,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"full_recover_10.png":
+{
+	"frame": {"x":123,"y":1,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+}},
+"animations": {
+	"full_recover": ["full_recover_1.png","full_recover_2.png","full_recover_3.png","full_recover_4.png","full_recover_5.png","full_recover_6.png","full_recover_7.png","full_recover_8.png","full_recover_9.png","full_recover_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "full_recover.png",
+	"format": "RGBA8888",
+	"size": {"w":1220,"h":122},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a673d34634fc973713249550597ae212:dc0f39d8fd2a55d7dbee10d62cb29fa2:b9a5e8c7ab39fba08dcbfad60edbc622$"
+}
+}

@@ -1,0 +1,418 @@
+{
+    "nodes": [
+      {
+        "id": "bgm_volume_up",
+        "type": "sprite",
+        "position": [570, 280],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.3, 0.3],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "onBgmArrowDown",
+              "arguments": [0.01]
+            }
+          ],
+        "interactive": true
+      },
+      {
+        "id": "bgm_volume_down",
+        "type": "sprite",
+        "position": [70, 280],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.3, 0.3],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "onBgmArrowDown",
+              "arguments": [-0.01]
+            }
+          ],
+          "interactive": true
+      },
+      {
+        "id": "se_volume_up",
+        "type": "sprite",
+        "position": [570, 470],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.3, 0.3],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "onSeArrowDown",
+              "arguments": [0.1]
+            }
+          ],
+          "interactive": true
+      },
+      {
+        "id": "se_volume_down",
+        "type": "sprite",
+        "position": [70, 470],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.3, 0.3],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "onSeArrowDown",
+              "arguments": [-0.1]
+            }
+          ],
+          "interactive": true
+      },
+      {
+        "id": "bgm_volume_1",
+        "type": "sprite",
+        "position": [150, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_1.png",
+          "url": "ui/sound_option/vol_1.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_2",
+        "type": "sprite",
+        "position": [200, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_2.png",
+          "url": "ui/sound_option/vol_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_3",
+        "type": "sprite",
+        "position": [230, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_3.png",
+          "url": "ui/sound_option/vol_3.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_4",
+        "type": "sprite",
+        "position": [261, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_4.png",
+          "url": "ui/sound_option/vol_4.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_5",
+        "type": "sprite",
+        "position": [296, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_5.png",
+          "url": "ui/sound_option/vol_5.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_6",
+        "type": "sprite",
+        "position": [328, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_6.png",
+          "url": "ui/sound_option/vol_6.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_7",
+        "type": "sprite",
+        "position": [358, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_7.png",
+          "url": "ui/sound_option/vol_7.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_8",
+        "type": "sprite",
+        "position": [389, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_8.png",
+          "url": "ui/sound_option/vol_8.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_9",
+        "type": "sprite",
+        "position": [423, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_9.png",
+          "url": "ui/sound_option/vol_9.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "bgm_volume_10",
+        "type": "sprite",
+        "position": [453, 310],
+        "params": {
+          "textureName": "ui/sound_option/vol_10.png",
+          "url": "ui/sound_option/vol_10.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_1",
+        "type": "sprite",
+        "position": [150, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_1.png",
+          "url": "ui/sound_option/vol_1.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_2",
+        "type": "sprite",
+        "position": [200, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_2.png",
+          "url": "ui/sound_option/vol_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_3",
+        "type": "sprite",
+        "position": [230, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_3.png",
+          "url": "ui/sound_option/vol_3.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_4",
+        "type": "sprite",
+        "position": [261, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_4.png",
+          "url": "ui/sound_option/vol_4.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_5",
+        "type": "sprite",
+        "position": [296, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_5.png",
+          "url": "ui/sound_option/vol_5.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_6",
+        "type": "sprite",
+        "position": [328, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_6.png",
+          "url": "ui/sound_option/vol_6.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_7",
+        "type": "sprite",
+        "position": [358, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_7.png",
+          "url": "ui/sound_option/vol_7.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_8",
+        "type": "sprite",
+        "position": [389, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_8.png",
+          "url": "ui/sound_option/vol_8.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_9",
+        "type": "sprite",
+        "position": [423, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_9.png",
+          "url": "ui/sound_option/vol_9.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "se_volume_10",
+        "type": "sprite",
+        "position": [453, 490],
+        "params": {
+          "textureName": "ui/sound_option/vol_10.png",
+          "url": "ui/sound_option/vol_10.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0, 1]
+        }
+      },
+      {
+        "id": "language",
+        "type": "text",
+        "position": [320, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "LANGUAGE",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "bgm_volume",
+        "type": "text",
+        "position": [320, 200],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "BGM VOLUME",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "se_volume",
+        "type": "text",
+        "position": [320, 370],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "SE VOLUME",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "back_to_title",
+        "type": "sprite",
+        "position": [320, 580],
+        "params": {
+          "textureName": "ui/back_to_title.png",
+          "url": "ui/back_to_title.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "showTitleScene",
+              "arguments": []
+            }
+          ],
+          "interactive": true
+      },
+      {
+        "id": "japanese",
+        "type": "sprite",
+        "position": [190, 130],
+        "params": {
+          "textureName": "ui/japanese.png",
+          "url": "ui/japanese.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "japanese_2",
+        "type": "sprite",
+        "position": [190, 130],
+        "params": {
+          "textureName": "ui/japanese_2.png",
+          "url": "ui/japanese_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onLanguageSelected",
+            "arguments": ["japanese"]
+          }
+        ],
+        "interactive": true
+      },
+      {
+        "id": "english",
+        "type": "sprite",
+        "position": [450, 130],
+        "params": {
+          "textureName": "ui/english.png",
+          "url": "ui/english.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "english_2",
+        "type": "sprite",
+        "position": [450, 130],
+        "params": {
+          "textureName": "ui/english_2.png",
+          "url": "ui/english_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onLanguageSelected",
+            "arguments": ["english"]
+          }
+        ],
+        "interactive": true
+      }
+    ]
+  }

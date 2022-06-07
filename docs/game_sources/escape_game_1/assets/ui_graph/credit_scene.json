@@ -1,0 +1,906 @@
+{
+    "nodes": [
+      {
+        "id": "room_object_images",
+        "type": "credit_text",
+        "position": [320, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Room Object Images",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "room_object_images_2",
+        "type": "credit_text",
+        "position": [960, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Room Object Images",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_images",
+        "type": "credit_text",
+        "position": [1600, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Item Images",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "ui_images",
+        "type": "credit_text",
+        "position": [2240, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "UI Images",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "ui_images_2",
+        "type": "credit_text",
+        "position": [2880, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "UI Images",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "sounds",
+        "type": "credit_text",
+        "position": [3520, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Sounds",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fonts",
+        "type": "credit_text",
+        "position": [4160, 50],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Fonts",
+          "size": 40,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "bed",
+        "type": "credit_text",
+        "position": [70, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Bed     FlukierJupiter  /  https://sketchfab.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "gas_stove",
+        "type": "credit_text",
+        "position": [70, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Gas Stove     Carlos_ZM  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "vending_machine",
+        "type": "credit_text",
+        "position": [70, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Vending Machine     Steven Janes  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "cabinet",
+        "type": "credit_text",
+        "position": [70, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Cabinet     Rogers78456  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "barrel",
+        "type": "credit_text",
+        "position": [70, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Barrel     Kyan0s  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "desk",
+        "type": "credit_text",
+        "position": [70, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Desk     Brandon Westlake  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "grinder",
+        "type": "credit_text",
+        "position": [70, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Grinder     Lisov1k  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "closet",
+        "type": "credit_text",
+        "position": [70, 340],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Closet     Ezecrafting_YT  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "car",
+        "type": "credit_text",
+        "position": [70, 370],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Car     AtskaHeart  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "mirror",
+        "type": "credit_text",
+        "position": [70, 400],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Mirror     Leon Sasser  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "safe",
+        "type": "credit_text",
+        "position": [710, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Safe     Fayruso  /  https://sketchfab.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "chair",
+        "type": "credit_text",
+        "position": [710, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Chair     vUv  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "balloon",
+        "type": "credit_text",
+        "position": [710, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Balloon     dumbalabym  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "clock",
+        "type": "credit_text",
+        "position": [710, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Clock     f.bomber2045  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "dog_bowl",
+        "type": "credit_text",
+        "position": [710, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Dog Bowl     aurelkillers1  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "pig",
+        "type": "credit_text",
+        "position": [710, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Pig     Nicole Harris  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "tv",
+        "type": "credit_text",
+        "position": [710, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "TV     rhcreations  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "book_shelf",
+        "type": "credit_text",
+        "position": [710, 340],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Book Shelf     Billy Jackman  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "door",
+        "type": "credit_text",
+        "position": [710, 370],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Door     I am Cassia  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "freezer",
+        "type": "credit_text",
+        "position": [710, 400],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Freezer     Caboose3d  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "coin",
+        "type": "credit_text",
+        "position": [1350, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Coin     Luan  /  https://sketchfab.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "banana",
+        "type": "credit_text",
+        "position": [1350, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Banana     Batuhan13  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "salt",
+        "type": "credit_text",
+        "position": [1350, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Salt     iMMERSiVELY  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "desk_key",
+        "type": "credit_text",
+        "position": [1350, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Desk Key     Groosic  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "pencil",
+        "type": "credit_text",
+        "position": [1350, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Pencil     togle  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hand_mirror",
+        "type": "credit_text",
+        "position": [1350, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Hand Mirror     Kenetics  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "detergent",
+        "type": "credit_text",
+        "position": [1350, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Detergent     Thunk3D scanner  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "car_key",
+        "type": "credit_text",
+        "position": [1350, 340],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Car Key     DC_knights  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "cross_bow",
+        "type": "credit_text",
+        "position": [1350, 370],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Cross Bow     leo.dobrotin  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "menu_bar",
+        "type": "credit_text",
+        "position": [1940, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Menu Bar     空想曲線  /  https://kopacurve.blog.fc2.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "message_window",
+        "type": "credit_text",
+        "position": [1940, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Message Window     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_panal_frame",
+        "type": "credit_text",
+        "position": [1940, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Item Panel Frame     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "sound_option_frame",
+        "type": "credit_text",
+        "position": [1940, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Sound Option Frame     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "language_select_frame",
+        "type": "credit_text",
+        "position": [1940, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Language Select Frame     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "language_select_button",
+        "type": "credit_text",
+        "position": [1940, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Language Select Button     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "new_game_confirm_frame",
+        "type": "credit_text",
+        "position": [1940, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "New Game Confirm Frame     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "new_game_confirm_button",
+        "type": "credit_text",
+        "position": [1940, 340],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "New Game Confirm Button     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_panel",
+        "type": "credit_text",
+        "position": [1940, 370],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Item Panel     フリフレ  /  https://www.free-frame.net",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "option_select_frame",
+        "type": "credit_text",
+        "position": [1940, 400],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Option Select Frame     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "tile_select_frame",
+        "type": "credit_text",
+        "position": [2580, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Tile Select Frame     フリフレ  /",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "tile_select_frame_2",
+        "type": "credit_text",
+        "position": [2880, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "https://www.free-frame.net",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "menu_item_button",
+        "type": "credit_text",
+        "position": [2580, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Menu Item Button     Google Fonts  /",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "menu_item_button_2",
+        "type": "credit_text",
+        "position": [2850, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "https://fonts.google.com/icons",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "menu_sound_button",
+        "type": "credit_text",
+        "position": [2580, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Menu Sound Button     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "menu_return_button",
+        "type": "credit_text",
+        "position": [2580, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Menu Return Button     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "pin_pad",
+        "type": "credit_text",
+        "position": [2580, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "PIN Pad     KurtSteiner  /  https://sketchfab.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "title_bg",
+        "type": "credit_text",
+        "position": [2580, 340],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Title Background     illustAC  /  https://www.ac-illust.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "arrow_image",
+        "type": "credit_text",
+        "position": [2580, 370],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Arrow Image     やじるし素材天国「矢印デザイン」  /",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "arrow_image_2",
+        "type": "credit_text",
+        "position": [2950, 400],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "https://yajidesign.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "option_tap_sound",
+        "type": "credit_text",
+        "position": [3220, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Option Tap Sound     効果音ラボ  /",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "option_tap_sound",
+        "type": "credit_text",
+        "position": [3520, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "https://soundeffect-lab.info",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "text_frame_tap_sound",
+        "type": "credit_text",
+        "position": [3220, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Text Frame Tap Sound     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "tile_tap_sound",
+        "type": "credit_text",
+        "position": [3220, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Tile Tap Sound     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "playing_bgm",
+        "type": "credit_text",
+        "position": [3220, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Playing BGM     MusMus  /  https://musmus.main.jp",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "title_bgm",
+        "type": "credit_text",
+        "position": [3220, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Title BGM     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "ending_bgm",
+        "type": "credit_text",
+        "position": [3220, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Ending BGM     〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "default_font",
+        "type": "credit_text",
+        "position": [3860, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Default Font     Google Fonts  /  https://fonts.google.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "page_number",
+        "type": "text",
+        "position": [320, 480],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "next_page",
+        "type": "sprite",
+        "position": [400, 480],
+        "params": {
+          "textureName": "ui/next_page.png",
+          "url": "ui/next_page.png",
+          "scale": [0.15, 0.15],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "changePage",
+              "arguments": [-1]
+            }
+          ],
+          "interactive": true
+      },
+      {
+        "id": "previous_page",
+        "type": "sprite",
+        "position": [240, 480],
+        "params": {
+          "textureName": "ui/previous_page.png",
+          "url": "ui/previous_page.png",
+          "scale": [0.15, 0.15],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "changePage",
+              "arguments": [1]
+            }
+          ],
+          "interactive": true
+      },
+      {
+        "id": "back_to_title",
+        "type": "sprite",
+        "position": [320, 580],
+        "params": {
+          "textureName": "ui/back_to_title.png",
+          "url": "ui/back_to_title.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "showTitleScene",
+              "arguments": []
+            }
+          ],
+          "interactive": true
+      }
+    ]
+  }

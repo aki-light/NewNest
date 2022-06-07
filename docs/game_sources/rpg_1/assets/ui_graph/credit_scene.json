@@ -1,0 +1,332 @@
+{
+    "nodes": [
+      {
+        "id": "credit_scene_bg",
+        "type": "sprite",
+        "position": [0, 0],
+        "params": {
+          "textureName": "ui/option_scene_bg.png",
+          "url": "ui/option_scene_bg.png",
+          "scale": [1.0, 1.0]
+        }
+      },
+      {
+        "id": "type_name_frame",
+        "type": "sprite",
+        "position": [320, 80],
+        "params": {
+          "textureName": "ui/button_select.png",
+          "url": "ui/button_select.png",
+          "scale": [0.75, 1.0],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "images",
+        "type": "credit_text",
+        "position": [320, 80],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Images",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "sounds",
+        "type": "credit_text",
+        "position": [960, 80],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Sounds",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fonts",
+        "type": "credit_text",
+        "position": [1600, 80],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Fonts",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "title_bg",
+        "type": "credit_text",
+        "position": [70, 140],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Title BG     illustAC  /  https://www.ac-illust.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "volume_bar",
+        "type": "credit_text",
+        "position": [70, 170],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "BGM,SE Volume Bar     〃  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "boss",
+        "type": "credit_text",
+        "position": [70, 200],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Boss Image     アンデットとか好きだからーーーッ！",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "boss",
+        "type": "credit_text",
+        "position": [260, 230],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "！！  /  https://lud.sakura.ne.jp",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "attack_effects",
+        "type": "credit_text",
+        "position": [70, 260],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Attack Effect Images     ぴぽや",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "attack_effects",
+        "type": "credit_text",
+        "position": [370, 290],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "/  https://pipoya.net",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "title_bgm",
+        "type": "credit_text",
+        "position": [710, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Title BGM     甘茶の音楽工房",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "title_bgm",
+        "type": "credit_text",
+        "position": [850, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "/  https://amachamusic.chagasi.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "talk_scene_bgm",
+        "type": "credit_text",
+        "position": [710, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Talk Scene BGM     〃  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "battle_scene_bgm",
+        "type": "credit_text",
+        "position": [710, 220],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Battle Scene BGM     〃  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "option_tap_se",
+        "type": "credit_text",
+        "position": [710, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Option Tap SEs     効果音ラボ",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "option_tap_se",
+        "type": "credit_text",
+        "position": [910, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "/  https://soundeffect-lab.info",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "attack_se",
+        "type": "credit_text",
+        "position": [710, 310],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Attack SEs     〃  /  〃",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "default_font",
+        "type": "credit_text",
+        "position": [1350, 130],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Default Font     Google Fonts",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "default_font",
+        "type": "credit_text",
+        "position": [1550, 160],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "/  https://fonts.google.com",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.0, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "next_page",
+        "type": "sprite",
+        "position": [400, 480],
+        "params": {
+          "textureName": "ui/arrow_next.png",
+          "url": "ui/arrow_next.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "changePage",
+              "arguments": [-1]
+            }
+          ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "previous_page",
+        "type": "sprite",
+        "position": [240, 480],
+        "params": {
+          "textureName": "ui/arrow_prev.png",
+          "url": "ui/arrow_prev.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "changePage",
+              "arguments": [1]
+            }
+          ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "back_to_title",
+        "type": "sprite",
+        "position": [320, 560],
+        "params": {
+          "textureName": "ui/yellow_button.png",
+          "url": "ui/yellow_button.png",
+          "scale": [1.0, 1.0],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+            {
+              "type": "pointerdown",
+              "callback": "showTitleScene",
+              "arguments": []
+            }
+          ],
+          "interactive": true,
+          "buttonMode": true
+      },
+      {
+        "id": "title",
+        "type": "text",
+        "position": [320, 560],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "TITLE",
+          "size": 24,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      }
+    ]
+  }
