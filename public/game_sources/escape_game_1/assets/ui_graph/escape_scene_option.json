@@ -1,0 +1,599 @@
+{
+    "nodes": [
+       {
+        "id": "use_item",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・アイテムを使う",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 10
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_tin_statue",
+        "type": "text_option",
+        "position": [-10, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・錫の置物",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 14
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_coin",
+        "type": "text_option",
+        "position": [-10, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・コイン",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 15
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_banana",
+        "type": "text_option",
+        "position": [-10, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・バナナ",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 16
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_detergent",
+        "type": "text_option",
+        "position": [-10, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・洗剤",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 22
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_frozen_banana",
+        "type": "text_option",
+        "position": [-10, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・凍ったバナナ",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 19
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_desk_key",
+        "type": "text_option",
+        "position": [300, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・小さい鍵",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 27
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_salt",
+        "type": "text_option",
+        "position": [300, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・塩",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 20
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_pencil",
+        "type": "text_option",
+        "position": [300, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・新品の鉛筆",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 25
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_sharpened_pencil",
+        "type": "text_option",
+        "position": [300, -40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・削られた鉛筆",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 31
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_hand_mirror",
+        "type": "text_option",
+        "position": [300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・手鏡",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 23
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_car_key",
+        "type": "text_option",
+        "position": [-300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・汚れた鍵",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 17
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_crossbow",
+        "type": "text_option",
+        "position": [-300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・クロスボウ",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 21
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_nail",
+        "type": "text_option",
+        "position": [-300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・釘",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 18
+        },
+        "interactive": true 
+      },
+      {
+        "id": "use_dvd",
+        "type": "text_option",
+        "position": [-300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・DVDディスク",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 24
+        },
+        "interactive": true 
+      },
+      {
+        "id": "enter_code",
+        "type": "text_option",
+        "position": [-300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・コードを入力する",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 34
+        },
+        "interactive": true 
+      },
+      {
+        "id": "set_clock",
+        "type": "text_option",
+        "position": [-300, 40],
+        "params": {
+            "family": "MPLUS1p-Regular",
+            "text": "・時計の時刻を変える",
+            "size": 26,
+            "color": "0xffffff",
+            "anchor": [0.5, 0.5],
+            "padding": 16,
+            "optionType": 36
+        },
+        "interactive": true 
+      },
+      {
+        "id": "back_to_title",
+        "type": "menu_text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "BACK TO TITLE",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 6
+        },
+        "interactive": true 
+      },
+      {
+        "id": "continue_game",
+        "type": "menu_text_option",
+        "position": [190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "CONTINUE",
+          "size": 32,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 1
+        },
+        "interactive": true 
+      },
+      {
+        "id": "sound_volume",
+        "type": "sprite_option",
+        "position": [0, 385],
+        "params": {
+          "textureName": "ui/sound_volume.png",
+          "url": "ui/sound_volume.png",
+          "scale": [1.1, 1.6],
+          "anchor": [0.5, 0.5],
+          "optionType": 9
+        },
+        "interactive": true
+      },
+      {
+        "id": "return",
+        "type": "sprite_option",
+        "position": [0, 660],
+        "params": {
+          "textureName": "ui/return.png",
+          "url": "ui/return.png",
+          "scale": [1.1, 1.6],
+          "anchor": [0.5, 0.5],
+          "optionType": 8
+        },
+        "interactive": true
+      },
+      {
+        "id": "item_bag",
+        "type": "sprite_option",
+        "position": [0, 110],
+        "params": {
+          "textureName": "ui/item_bag.png",
+          "url": "ui/item_bag.png",
+          "scale": [1.1, 1.6],
+          "anchor": [0.5, 0.5],
+          "optionType": 7
+        },
+        "interactive": true
+      },
+      {
+        "id": "get_salt",
+        "type": "text_option",
+        "position": [-150, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・塩をとる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 26
+        },
+        "interactive": true 
+      },
+      {
+        "id": "get_pencil",
+        "type": "text_option",
+        "position": [-150, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・鉛筆をとる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 30
+        },
+        "interactive": true 
+      },
+      {
+        "id": "do_nothing",
+        "type": "text_option",
+        "position": [190, 35],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・なにもしない",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 1
+        },
+        "interactive": true 
+      },
+      {
+        "id": "jump_on_bed",
+        "type": "text_option",
+        "position": [-190, -35],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・ベッドの上で跳ねる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 11
+        },
+        "interactive": true 
+      },
+      {
+        "id": "chack_under_bed",
+        "type": "text_option",
+        "position": [-190, 35],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・ベッドの下を調べる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 12
+        },
+        "interactive": true 
+      },
+      {
+        "id": "chack_under_pillow",
+        "type": "text_option",
+        "position": [190, -35],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・枕の下を調べる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 13
+        },
+        "interactive": true 
+      },
+      {
+        "id": "check_left_drawer",
+        "type": "text_option",
+        "position": [-300, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・左の引き出しを調べる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 28
+        },
+        "interactive": true 
+      },
+      {
+        "id": "check_right_drawer",
+        "type": "text_option",
+        "position": [0, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・右の引き出しを調べる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 29
+        },
+        "interactive": true 
+      },
+      {
+        "id": "check_in_closet",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・中を調べる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 32
+        },
+        "interactive": true 
+      },
+      {
+        "id": "check_on_closet",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・上を調べる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 33
+        },
+        "interactive": true 
+      },
+      {
+        "id": "get_crossbow",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・クロスボウをとる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 35
+        },
+        "interactive": true 
+      },
+      {
+        "id": "escape",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・脱出する",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 37
+        },
+        "interactive": true 
+      },
+      {
+        "id": "move_pig",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・ブタを動かす",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 38
+        },
+        "interactive": true 
+      },
+      {
+        "id": "get_dvd",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・DVDをとる",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 39
+        },
+        "interactive": true 
+      },
+      {
+        "id": "read_hint",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・ヒント集を見る",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 40
+        },
+        "interactive": true 
+      },
+      {
+        "id": "hint_1",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・ヒント1",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 41
+        },
+        "interactive": true 
+      },
+      {
+        "id": "hint_2",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "・ヒント2",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 42
+        },
+        "interactive": true 
+      },
+      {
+        "id": "back_to_title_2",
+        "type": "text_option",
+        "position": [-190, 0],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "タイトルに戻る",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "optionType": 6
+        },
+        "interactive": true 
+      }
+    ]
+  }
+  

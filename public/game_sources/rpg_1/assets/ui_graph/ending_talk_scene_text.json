@@ -1,0 +1,319 @@
+{
+    "nodes": [
+      {
+        "id": "player_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "あなた",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "皇帝",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "no_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "lose_emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "運命は私を選んだか...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "lose_player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ここまでなのか？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "lose_narrator_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(ここで終わるはずがない、と思いながらもあなたの意識は 遠のいていく...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "強いな...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "俺はたくさんの人たちの思いと一緒に戦っている、負けるはずがない！",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "やはり大きな流れには逆らえないのか...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_player_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "最後に聞くがこのブレスレットに込められた魔法とはなんだ？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "知らない方がいいだろう、お前もまともでいられなくなるだろうからな",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_4",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "頼みがある...そのブレスレットは破壊してくれ...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_player_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "一体何を言っているんだ？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_narrator_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(しかし、それ以上皇帝からの返事はなかった...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "強いな...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "お前を倒すために最高の装備を用意したからな",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_player_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "これで終わりだ",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_narrator_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(剣を振り上げた瞬間、ブレスレットが腕から外れ 皇帝のほうへ転がっていった...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_player_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "！？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_emperor_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "どうやら装備に頼りすぎたようだな、ブレスレットは私の力を 認めたのだ！",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_narrator_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(あなたの最後にみたものは皇帝の腕のブレスレットから放たれる 強烈な光だった...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

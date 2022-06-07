@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "title_bg",
+      "type": "sprite",
+      "position": [0, 0],
+      "params": {
+        "textureName": "ui/title_bg.png",
+        "url": "ui/title_bg.png",
+        "scale": [0.64, 0.64]
+      }
+    },{
+      "id": "title_1",
+      "type": "sprite",
+      "position": [0, 80],
+      "params": {
+        "textureName": "ui/title_1.png",
+        "url": "ui/title_1.png",
+        "scale": [0.6, 0.6],
+        "anchor": [1.0, 0.5]
+      }
+    },
+    {
+      "id": "title_2",
+      "type": "sprite",
+      "position": [0, 160],
+      "params": {
+        "textureName": "ui/title_2.png",
+        "url": "ui/title_2.png",
+        "scale": [0.6, 0.6],
+        "anchor": [1.0, 0.5]
+      }
+    },
+    {
+      "id": "title_3",
+      "type": "sprite",
+      "position": [0, 240],
+      "params": {
+        "textureName": "ui/title_3.png",
+        "url": "ui/title_3.png",
+        "scale": [0.6, 0.6],
+        "anchor": [1.0, 0.5]
+      }
+    },
+    {
+      "id": "new_game",
+      "type": "sprite",
+      "position": [320, 400],
+      "params": {
+        "textureName": "ui/new_game.png",
+        "url": "ui/new_game.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onNewGameButtonTouched",
+          "arguments": []
+        }
+      ],
+      "interactive": true,
+      "invisible": true
+    },
+    {
+      "id": "continue",
+      "type": "sprite",
+      "position": [320, 460],
+      "params": {
+        "textureName": "ui/continue.png",
+        "url": "ui/continue.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onContinueButtonTouched",
+          "arguments": []
+        }
+      ],
+      "interactive": true,
+      "invisible": true
+    },
+    {
+      "id": "continue_2",
+      "type": "sprite",
+      "position": [320, 460],
+      "params": {
+        "textureName": "ui/continue_2.png",
+        "url": "ui/continue_2.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "option",
+      "type": "sprite",
+      "position": [320, 520],
+      "params": {
+        "textureName": "ui/option.png",
+        "url": "ui/option.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "showOptionScene",
+          "arguments": []
+        }
+      ],
+      "interactive": true,
+      "invisible": true
+    },
+    {
+      "id": "credit",
+      "type": "sprite",
+      "position": [320, 580],
+      "params": {
+        "textureName": "ui/credit.png",
+        "url": "ui/credit.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "showCreditScene",
+          "arguments": []
+        }
+      ],
+      "interactive": true,
+      "invisible": true
+    },
+    {
+      "id": "language_option_frame",
+      "type": "language_option_sprite",
+      "position": [320, 320],
+      "params": {
+        "textureName": "ui/title_option_frame.png",
+        "url": "ui/title_option_frame.png",
+        "scale": [1.0, 0.6],
+        "anchor": [0.5, 0.5]
+      }
+    },
+    {
+      "id": "japanese",
+      "type": "language_option_sprite",
+      "position": [220, 340],
+      "params": {
+        "textureName": "ui/japanese.png",
+        "url": "ui/japanese.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onLanguageSelected",
+          "arguments": ["japanese"]
+        }
+      ],
+      "interactive": true
+    },
+    {
+      "id": "english",
+      "type": "language_option_sprite",
+      "position": [420, 340],
+      "params": {
+        "textureName": "ui/english.png",
+        "url": "ui/english.png",
+        "scale": [0.5, 0.5],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onLanguageSelected",
+          "arguments": ["english"]
+        }
+      ],
+      "interactive": true
+    },
+    {
+      "id": "select_language",
+      "type": "language_option_text",
+      "position": [320, 270],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "SELECT LANGUAGE",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }  
+    },
+    {
+      "id": "confirmation_frame",
+      "type": "confirmation_sprite",
+      "position": [320, 320],
+      "params": {
+        "textureName": "ui/title_option_frame.png",
+        "url": "ui/title_option_frame.png",
+        "scale": [1.0, 0.6],
+        "anchor": [0.5, 0.5]
+      }
+    },
+    {
+      "id": "confirm_message",
+      "type": "confirmation_text",
+      "position": [320, 270],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "新しくゲームを始めると 今までの進行状況がリセットされます",
+        "size": 24,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16,
+        "wordWrap": true,
+        "wordWrapWidth": 400
+      }  
+    },
+    {
+      "id": "confirm_message_english",
+      "type": "confirmation_text",
+      "position": [320, 270],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "if you start a new game, your progress will be reset.",
+        "size": 28,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16,
+        "wordWrap": true,
+        "wordWrapWidth": 400
+      }  
+    },
+    {
+      "id": "new_game_2",
+      "type": "confirmation_sprite",
+      "position": [200, 360],
+      "params": {
+        "textureName": "ui/new_game_2.png",
+        "url": "ui/new_game_2.png",
+        "scale": [0.6, 0.6],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "newGame",
+          "arguments": []
+        }
+      ],
+      "interactive": true
+    },
+    {
+      "id": "cancel",
+      "type": "confirmation_sprite",
+      "position": [440, 360],
+      "params": {
+        "textureName": "ui/cancel.png",
+        "url": "ui/cancel.png",
+        "scale": [0.6, 0.6],
+        "anchor": [0.5, 0.5]
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "cancelNewGame",
+          "arguments": []
+        }
+      ],
+      "interactive": true
+    }
+  ]
+}

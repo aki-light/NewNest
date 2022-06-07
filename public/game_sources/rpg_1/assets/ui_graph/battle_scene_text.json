@@ -1,0 +1,730 @@
+{
+    "nodes": [
+      {
+        "id": "battle",
+        "type": "text",
+        "type2": "first_select",
+        "position": [120, 550],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "たたかう",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "item",
+        "type": "text",
+        "type2": "first_select",
+        "position": [320, 550],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "どうぐ",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "escape",
+        "type": "text",
+        "type2": "first_select",
+        "position": [520, 550],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "にげる",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "attack",
+        "type": "text",
+        "type2": "battle_select",
+        "position": [120, 510],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "こうげき",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "skill",
+        "type": "text",
+        "type2": "battle_select",
+        "position": [320, 510],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "せんぎ",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "guard",
+        "type": "text",
+        "type2": "battle_select",
+        "position": [520, 510],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ガード",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "return",
+        "type": "text",
+        "type2": "battle_select",
+        "position": [320, 590],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "戻る",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "item_name_1",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [165, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "HPポーション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/potion3_04.png",
+              "item_marker_1",
+              "300HPかいふく",
+              "hpPotion",
+              "item_1_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_2",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [165, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ハイHPポーション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/potion1_05.png",
+              "item_marker_2",
+              "500HPかいふく",
+              "highHpPotion",
+              "item_2_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_3",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [165, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "グレートHPポーション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/potion2_02.png",
+              "item_marker_3",
+              "1000HPかいふく",
+              "greatHpPotion",
+              "item_3_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_4",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [430, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "FPポーション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/potion3_01.png",
+              "item_marker_4",
+              "250FPかいふく",
+              "fpPotion",
+              "item_4_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_5",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [430, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ハイFPポーション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/potion1_01.png",
+              "item_marker_5",
+              "400FPかいふく",
+              "highFpPotion",
+              "item_5_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_6",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [430, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "グレートFPポーション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/potion2_03.png",
+              "item_marker_6",
+              "800FPかいふく",
+              "greatFpPotion",
+              "item_6_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_7",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [165, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ネクター",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/aphrodisiac_01.png",
+              "item_marker_1",
+              "HP・FP・状態異常を完全かいふく",
+              "nectar",
+              "item_7_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_8",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [165, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "キュアパウダー",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/powder_04.png",
+              "item_marker_2",
+              "状態異常をかいふく",
+              "curePowder",
+              "item_8_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_9",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [165, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "アントシアニン",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/testtube_05.png",
+              "item_marker_3",
+              "4ターン回避率がアップする",
+              "dvUp",
+              "item_9_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_10",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [430, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "クレアチン",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/testtube_02.png",
+              "item_marker_4",
+              "3ターン攻撃力がアップする",
+              "attackUp",
+              "item_10_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_11",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [430, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ギャバ",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/testtube_04.png",
+              "item_marker_5",
+              "3ターンクリティカルがアップする",
+              "criticalUp",
+              "item_11_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_name_12",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [430, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "アロンベータ",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNameTapped",
+            "arguments": [
+              "items/supertesttube.png",
+              "item_marker_6",
+              "受けるダメージを1度だけ0にする",
+              "aronBeta",
+              "item_12_number"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_use",
+        "type": "text",
+        "type2": "item",
+        "position": [190, 590],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "つかう",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_page_return",
+        "type": "text",
+        "type2": "item",
+        "position": [450, 590],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "もどる",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "skill_use",
+        "type": "text",
+        "type2": "skill",
+        "position": [190, 590],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "つかう",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "skill_page_return",
+        "type": "text",
+        "type2": "skill",
+        "position": [450, 590],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "もどる",
+          "size": 20,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "skill_name_1",
+        "type": "text",
+        "type2": "skill",
+        "position": [190, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ダブルエッジカッター",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillNameTapped",
+            "arguments": [
+              1,
+              "skill_marker_1",
+              "クリティカルがでやすい　FP -200"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "skill_name_2",
+        "type": "text",
+        "type2": "skill",
+        "position": [190, 270],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "スプリングドロー",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillNameTapped",
+            "arguments": [
+              2,
+              "skill_marker_2",
+              "一定の確率で敵がひるむ　FP -340"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "skill_name_3",
+        "type": "text",
+        "type2": "skill",
+        "position": [190, 350],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "フォールンスタースラッシュ",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillNameTapped",
+            "arguments": [
+              3,
+              "skill_marker_3",
+              "敵1体に大ダメージ　FP -450"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "skill_name_4",
+        "type": "text",
+        "type2": "skill",
+        "position": [455, 190],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ライトニンググリーム",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillNameTapped",
+            "arguments": [
+              4,
+              "skill_marker_4",
+              "ガードを貫通してダメージを与える　FP -200"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "skill_name_5",
+        "type": "text",
+        "type2": "skill",
+        "position": [455, 270],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "メイレインスラッシュ",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillNameTapped",
+            "arguments": [
+              5,
+              "skill_marker_5",
+              "通常時はこうげきが必ず当たる　FP -250"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "skill_name_6",
+        "type": "text",
+        "type2": "skill",
+        "position": [455, 350],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "スプリットディメンション",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onSkillNameTapped",
+            "arguments": [
+              6,
+              "skill_marker_6",
+              "次のターンに大ダメージを与える　FP -250"
+            ]
+          }
+        ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "confirm",
+        "type": "text",
+        "type2": "back_to_title",
+        "position": [320, 270],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "タイトルにもどります",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "yes",
+        "type": "text",
+        "type2": "back_to_title",
+        "position": [250, 350],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "はい",
+          "size": 19,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        }
+      },
+      {
+        "id": "no",
+        "type": "text",
+        "type2": "back_to_title",
+        "position": [390, 350],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "いいえ",
+          "size": 19,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

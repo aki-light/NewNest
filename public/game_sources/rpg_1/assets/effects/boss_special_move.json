@@ -1,0 +1,95 @@
+{"frames": {
+
+"boss_special_move_1.png":
+{
+	"frame": {"x":643,"y":1125,"w":640,"h":386},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":94,"w":640,"h":386},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_2.png":
+{
+	"frame": {"x":1,"y":1125,"w":640,"h":440},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":40,"w":640,"h":440},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_3.png":
+{
+	"frame": {"x":1,"y":1567,"w":593,"h":480},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":593,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_4.png":
+{
+	"frame": {"x":1,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_5.png":
+{
+	"frame": {"x":643,"y":1,"w":640,"h":480},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_6.png":
+{
+	"frame": {"x":1,"y":483,"w":640,"h":480},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_7.png":
+{
+	"frame": {"x":483,"y":643,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_8.png":
+{
+	"frame": {"x":1125,"y":1,"w":640,"h":480},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_9.png":
+{
+	"frame": {"x":1125,"y":643,"w":640,"h":480},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"boss_special_move_10.png":
+{
+	"frame": {"x":1031,"y":1285,"w":567,"h":480},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":567,"h":480},
+	"sourceSize": {"w":640,"h":480}
+}},
+"animations": {
+	"boss_special_move": ["boss_special_move_1.png","boss_special_move_2.png","boss_special_move_3.png","boss_special_move_4.png","boss_special_move_5.png","boss_special_move_6.png","boss_special_move_7.png","boss_special_move_8.png","boss_special_move_9.png","boss_special_move_10.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boss_special_move.png",
+	"format": "RGBA8888",
+	"size": {"w":1606,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e831649c4cbcb902b540cdce2eaed9f0:68be8479c588460fcc3b2d0503c95c1c:38c41c65e2c03f8378fe584ffcaa1ab8$"
+}
+}

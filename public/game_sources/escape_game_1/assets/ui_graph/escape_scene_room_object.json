@@ -1,0 +1,555 @@
+{
+    "nodes": [
+      {
+        "id": "tv",
+        "type": "room_object",
+        "position": [275, 90],
+        "params": {
+          "textureName": "room_object/tv.png",
+          "url": "room_object/tv.png",
+          "scale": [0.55, 0.35],
+          "downTiles": [
+            [2, 4],
+            [2, 5]
+          ],
+          "messageIds": [
+            "tv_message_1",
+            [
+              "use_item",
+              "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["tv"]
+            }
+          ]
+      },
+      {
+        "id": "desk",
+        "type": "room_object",
+        "position": [140, 240],
+        "params": {
+          "textureName": "room_object/desk.png",
+          "url": "room_object/desk.png",
+          "scale": [0.45, 0.45],
+          "downTiles": [
+            [4, 2],
+            [4, 3]
+          ],
+          "messageIds": [
+            "desk_message_1",
+            [
+              "check_left_drawer",
+              "check_right_drawer",
+              "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["desk"]
+            }
+          ]
+      },
+      {
+        "id": "door",
+        "type": "room_object",
+        "position": [514, 45],
+        "params": {
+          "textureName": "room_object/door.png",
+          "url": "room_object/door.png",
+          "scale": [0.45, 0.32],
+          "downTiles": [
+            [1, 8]
+          ],
+          "messageIds": [
+            "door_message_1",
+            [
+                "escape",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["door"]
+            }
+          ]
+      },
+      {
+        "id": "bed",
+        "type": "room_object",
+        "position": [577, 385],
+        "params": {
+          "textureName": "room_object/bed.png",
+          "url": "room_object/bed.png",
+          "scale": [0.28, 0.3],
+          "downTiles": [
+            [6, 9],
+            [7, 9]
+          ],
+          "messageIds": [
+            "bed_message_1",
+            [
+                "jump_on_bed",
+                "chack_under_bed",
+                "chack_under_pillow",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["bed"]
+            }
+          ]
+      },
+      {
+        "id": "gas_stove",
+        "type": "room_object",
+        "position": [-5, 228],
+        "params": {
+          "textureName": "room_object/gas_stove.png",
+          "url": "room_object/gas_stove.png",
+          "scale": [0.42, 0.42],
+          "downTiles": [
+            [4, 0]
+          ],
+          "messageIds": [
+            "gas_stove_message_1",
+            "gas_stove_message_2",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["gas_stove"]
+            }
+          ]
+      },
+      {
+        "id": "vending_machine",
+        "type": "room_object",
+        "position": [600, 232],
+        "params": {
+          "textureName": "room_object/vending_machine.png",
+          "url": "room_object/vending_machine.png",
+          "scale": [0.5, 0.5],
+          "downTiles": [
+            [4, 9]
+          ],
+          "messageIds": [
+            "vending_machine_message_1",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["vending_machine"]
+            }
+          ]
+      },
+      {
+        "id": "freezer",
+        "type": "room_object",
+        "position": [-7, 380],
+        "params": {
+          "textureName": "room_object/freezer.png",
+          "url": "room_object/freezer.png",
+          "scale": [0.6, 0.6],
+          "downTiles": [
+            [6, 0],
+            [7, 0]
+          ],
+          "messageIds": [
+            "freezer_message_1",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["freezer"]
+            }
+          ]
+      },
+      {
+        "id": "cabinet",
+        "type": "room_object",
+        "position": [-8, 495],
+        "params": {
+          "textureName": "room_object/cabinet.png",
+          "url": "room_object/cabinet.png",
+          "scale": [0.4, 0.4],
+          "downTiles": [
+            [8, 0]
+          ],
+          "messageIds": [
+            "cabinet_message_1",
+            "cabinet_message_2",
+            [
+                "get_salt",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["cabinet"]
+            }
+          ]
+      },
+      {
+        "id": "barrel",
+        "type": "room_object",
+        "position": [447, 358],
+        "params": {
+          "textureName": "room_object/barrel.png",
+          "url": "room_object/barrel.png",
+          "scale": [0.39, 0.39],
+          "downTiles": [
+            [6, 7]
+          ],
+          "messageIds": [
+            "barrel_message_1",
+            "barrel_message_2",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["barrel"]
+            }
+          ]
+      },
+      {
+        "id": "grinder",
+        "type": "room_object",
+        "position": [130, 380],
+        "params": {
+          "textureName": "room_object/grinder.png",
+          "url": "room_object/grinder.png",
+          "scale": [0.45, 0.45],
+          "downTiles": [
+            [6, 2],
+            [7, 2]
+          ],
+          "messageIds": [
+            "grinder_message_1",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["grinder"]
+            }
+          ]
+      },
+      {
+        "id": "closet",
+        "type": "room_object",
+        "position": [412, 70],
+        "params": {
+          "textureName": "room_object/closet.png",
+          "url": "room_object/closet.png",
+          "scale": [0.45, 0.35],
+          "downTiles": [
+            [2, 6],
+            [2, 7]
+          ],
+          "messageIds": [
+            "closet_message_1",
+            [
+                "check_in_closet",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["closet"]
+            }
+          ]
+      },
+      {
+        "id": "mirror",
+        "type": "room_object",
+        "position": [137, 60],
+        "params": {
+          "textureName": "room_object/dirty_mirror.png",
+          "url": "room_object/dirty_mirror.png",
+          "scale": [0.35, 0.35],
+          "downTiles": [
+            [1, 2]
+          ],
+          "messageIds": [
+            "mirror_message_1",
+            "mirror_message_2",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["mirror"]
+            }
+          ]
+      },
+      {
+        "id": "safe",
+        "type": "room_object",
+        "position": [262, 524],
+        "params": {
+          "textureName": "room_object/safe.png",
+          "url": "room_object/safe.png",
+          "scale": [0.25, 0.25],
+          "downTiles": [
+            [8, 4]
+          ],
+          "messageIds": [
+            "safe_message_1",
+            [
+                "enter_code",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["safe"]
+            }
+          ]
+      },
+      {
+        "id": "car",
+        "type": "room_object",
+        "position": [200, 495],
+        "params": {
+          "textureName": "room_object/car.png",
+          "url": "room_object/car.png",
+          "scale": [0.7, 0.7],
+          "downTiles": [
+            [8, 3],
+            [8, 4],
+            [8, 5],
+            [9, 3],
+            [9, 4],
+            [9, 5]
+          ],
+          "messageIds": [
+            "car_message_1",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["car"]
+            }
+          ]
+      },
+      {
+        "id": "balloon",
+        "type": "room_object",
+        "position": [325, 220],
+        "params": {
+          "textureName": "room_object/balloon.png",
+          "url": "room_object/balloon.png",
+          "scale": [0.4, 0.4],
+          "downTiles": [
+            [6, 5]
+          ],
+          "messageIds": [
+            "balloon_message_1",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["balloon"]
+            }
+          ]
+      },
+      {
+        "id": "chair",
+        "type": "room_object",
+        "position": [192, 120],
+        "params": {
+          "textureName": "room_object/broken_chair.png",
+          "url": "room_object/broken_chair.png",
+          "scale": [0.37, 0.37],
+          "downTiles": [
+            [2, 3]
+          ],
+          "messageIds": [
+            "broken_chair_message_1",
+            [
+                "use_item",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["chair"]
+            }
+          ]
+      },
+      {
+        "id": "clock",
+        "type": "room_object",
+        "position": [200, 0],
+        "params": {
+          "textureName": "room_object/clock_10_10.png",
+          "url": "room_object/clock_10_10.png",
+          "scale": [0.25, 0.25],
+          "downTiles": [
+            [2, 3]
+          ],
+          "messageIds": [
+            "clock_message_1"
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["clock"]
+            }
+          ]
+      },
+      {
+        "id": "bowl",
+        "type": "room_object",
+        "position": [10, 590],
+        "params": {
+          "textureName": "room_object/bowl.png",
+          "url": "room_object/bowl.png",
+          "scale": [0.2, 0.2],
+          "downTiles": [
+            [9, 0]
+          ],
+          "messageIds": [
+            "bowl_message_1"
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["bowl"]
+            }
+          ]
+      },
+      {
+        "id": "pig",
+        "type": "room_object",
+        "position": [500, 100],
+        "params": {
+          "textureName": "room_object/pig1.png",
+          "url": "room_object/pig1.png",
+          "scale": [0.33, 0.33],
+          "downTiles": [
+            [2, 8]
+          ],
+          "messageIds": [
+            "pig_message_1",
+            [
+                "move_pig",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["pig"]
+            }
+          ]
+      },
+      {
+        "id": "book_shelf",
+        "type": "room_object",
+        "position": [65, 75],
+        "params": {
+          "textureName": "room_object/book_shelf.png",
+          "url": "room_object/book_shelf.png",
+          "scale": [0.33, 0.33],
+          "downTiles": [
+            [2, 1]
+          ],
+          "messageIds": [
+            "book_shelf_message_1",
+            [
+                "read_hint",
+                "do_nothing"
+            ]
+          ]
+        },
+        "events": [
+            {
+              "type": "pointertap",
+              "callback": "onRoomObjectTapped",
+              "arguments": ["book_shelf"]
+            }
+          ]
+      }
+    ]
+  }
+  

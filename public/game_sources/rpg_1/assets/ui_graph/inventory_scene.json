@@ -1,0 +1,2090 @@
+{
+    "nodes": [
+      {
+        "id": "inventory_bg",
+        "type": "sprite",
+        "position": [0, 0],
+        "params": {
+          "textureName": "ui/inventory_scene_bg.png",
+          "url": "ui/inventory_scene_bg.png",
+          "scale": [1.0, 1.0]
+        }
+      },
+      {
+        "id": "inventory_frame",
+        "type": "sprite",
+        "position": [320, 30],
+        "params": {
+          "textureName": "ui/button_select.png",
+          "url": "ui/button_select.png",
+          "scale": [0.75, 1.0],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "status_frame",
+        "type": "nine_slice",
+        "type2": "equipment",
+        "position": [22, 325],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [135, 265],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "cp_frame",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [90, 250],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "cp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [90, 240],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "3700",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 365],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "500",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 395],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "500",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "atk",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 425],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "def",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 455],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "dv",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 485],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 515],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "crit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 545],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "max_hp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 365],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1200",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_fp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 395],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "1200",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_atk",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 425],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_def",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 455],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_dv",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 485],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_hit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 515],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "max_crit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [115, 545],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 18,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "hp_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 365],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "HP",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "fp_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 395],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "FP",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "attack_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 425],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ATK",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "defense_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 455],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "DEF",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "dv_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 485],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "DV",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "hit_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 515],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "HIT",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "crit_text",
+        "type": "text",
+        "type2": "equipment",
+        "position": [65, 545],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "CRIT",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_item_frame",
+        "type": "sprite",
+        "position": [320, 95],
+        "params": {
+          "textureName": "ui/button_select.png",
+          "url": "ui/button_select.png",
+          "scale": [0.55, 0.85],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "equipment_frame",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [320, 150],
+        "params": {
+          "textureName": "ui/button_select.png",
+          "url": "ui/button_select.png",
+          "scale": [0.82, 0.85],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "equipment_name_frame",
+        "type": "nine_slice",
+        "type2": "equipment",
+        "position": [163, 200],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [255, 320],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "equipment_1_marker",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [200, 245],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_2_marker",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [200, 290],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_3_marker",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [200, 335],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_4_marker",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [200, 380],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_5_marker",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [200, 425],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_6_marker",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [200, 470],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_1_e",
+        "type": "text",
+        "type2": "equipment",
+        "position": [385, 245],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "E",
+          "size": 24,
+          "color": "0xfff200",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_2_e",
+        "type": "text",
+        "type2": "equipment",
+        "position": [385, 290],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "E",
+          "size": 24,
+          "color": "0xfff200",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_3_e",
+        "type": "text",
+        "type2": "equipment",
+        "position": [385, 335],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "E",
+          "size": 24,
+          "color": "0xfff200",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_4_e",
+        "type": "text",
+        "type2": "equipment",
+        "position": [385, 380],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "E",
+          "size": 24,
+          "color": "0xfff200",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_5_e",
+        "type": "text",
+        "type2": "equipment",
+        "position": [385, 425],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "E",
+          "size": 24,
+          "color": "0xfff200",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_6_e",
+        "type": "text",
+        "type2": "equipment",
+        "position": [385, 470],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "E",
+          "size": 24,
+          "color": "0xfff200",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "equipment_description_frame",
+        "type": "nine_slice",
+        "type2": "equipment",
+        "position": [425, 185],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [188, 410],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "equipment_window",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [520, 270],
+        "params": {
+          "textureName": "ui/window.png",
+          "url": "ui/window.png",
+          "scale": [0.6, 0.6],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "equipment_texture",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [520, 270],
+        "params": {
+          "textureName": "equipments/sword12_01.png",
+          "url": "equipments/sword12_01.png",
+          "scale": [0.25, 0.25],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "equipment_hp_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 380],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_fp_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 400],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_atk_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 420],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_def_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 440],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_dv_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 460],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_hit_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 480],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_crit_+",
+        "type": "text",
+        "type2": "equipment",
+        "position": [520, 500],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "+",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_hp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 380],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_fp",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 400],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_atk",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 420],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_def",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 440],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_dv",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 460],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_hit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 480],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equipment_crit",
+        "type": "text",
+        "type2": "equipment",
+        "position": [550, 500],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "100",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "equip_button",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [520, 545],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.65, 0.65],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipButtonTapped",
+            "arguments": []
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "unEquip_button",
+        "type": "sprite",
+        "type2": "equipment",
+        "position": [520, 545],
+        "params": {
+          "textureName": "ui/button_round.png",
+          "url": "ui/button_round.png",
+          "scale": [0.65, 0.65],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onUnEquipButtonTapped",
+            "arguments": []
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true,
+        "invisible": true
+      },
+      {
+        "id": "battle_button",
+        "type": "sprite",
+        "position": [320, 590],
+        "params": {
+          "textureName": "ui/yellow_button.png",
+          "url": "ui/yellow_button.png",
+          "scale": [1.0, 1.0],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onBattleButtonTapped",
+            "arguments": []
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_frame",
+        "type": "nine_slice",
+        "type2": "item",
+        "position": [15, 130],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [610, 300],
+          "perimeter": [30, 30, 30, 30]
+        }
+      },
+      {
+        "id": "item_caption_frame",
+        "type": "sprite",
+        "type2": "item",
+        "position": [450, 490],
+        "params": {
+          "textureName": "ui/item_caption_frame.png",
+          "url": "ui/item_caption_frame.png",
+          "scale": [0.4, 0.65],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "item_window",
+        "type": "sprite",
+        "type2": "item",
+        "position": [210, 490],
+        "params": {
+          "textureName": "ui/window.png",
+          "url": "ui/window.png",
+          "scale": [0.55, 0.55],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "item_texture",
+        "type": "sprite",
+        "type2": "item",
+        "position": [210, 490],
+        "params": {
+          "textureName": "items/potion2_02.png",
+          "url": "items/potion2_02.png",
+          "scale": [0.25, 0.25],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "item_caption",
+        "type": "text",
+        "type2": "item",
+        "position": [450, 490],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "test test test",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "cp_frame_2",
+        "type": "sprite",
+        "type2": "item",
+        "position": [75, 505],
+        "params": {
+          "textureName": "ui/option_frame.png",
+          "url": "ui/option_frame.png",
+          "scale": [0.7, 0.7],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "cp_2",
+        "type": "text",
+        "type2": "item",
+        "position": [75, 495],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "3700",
+          "size": 18,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "page_next_1",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [360, 400],
+        "params": {
+          "textureName": "ui/arrow_next.png",
+          "url": "ui/arrow_next.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPageButtonTapped",
+            "arguments": [2]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "page_prev_1",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [280, 400],
+        "params": {
+          "textureName": "ui/arrow_prev_2.png",
+          "url": "ui/arrow_prev_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "page_next_2",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [360, 400],
+        "params": {
+          "textureName": "ui/arrow_next_2.png",
+          "url": "ui/arrow_next_2.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        }
+      },
+      {
+        "id": "page_prev_2",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [280, 400],
+        "params": {
+          "textureName": "ui/arrow_prev.png",
+          "url": "ui/arrow_prev.png",
+          "scale": [0.5, 0.5],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onPageButtonTapped",
+            "arguments": [1]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_marker_1",
+        "type": "sprite",
+        "type2": "item",
+        "position": [45, 180],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_2",
+        "type": "sprite",
+        "type2": "item",
+        "position": [45, 250],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_3",
+        "type": "sprite",
+        "type2": "item",
+        "position": [45, 320],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_4",
+        "type": "sprite",
+        "type2": "item",
+        "position": [330, 180],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_5",
+        "type": "sprite",
+        "type2": "item",
+        "position": [330, 250],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_marker_6",
+        "type": "sprite",
+        "type2": "item",
+        "position": [330, 320],
+        "params": {
+          "textureName": "ui/marker.png",
+          "url": "ui/marker.png",
+          "scale": [0.4, 0.4],
+          "anchor": [0.5, 0.5]
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_1_minus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [230, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "hpPotion",
+              "item_1_number",
+              "item_1_max_number",
+              -1,
+              -15
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_1_plus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [300, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "hpPotion",
+              "item_1_number",
+              "item_1_max_number",
+              1,
+              15
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_1_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [265, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_1_max_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [265, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_2_minus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [230, 250],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "highHpPotion",
+              "item_2_number",
+              "item_2_max_number",
+              -1,
+              -25
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_2_plus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [300,250],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "highHpPotion",
+              "item_2_number",
+              "item_2_max_number",
+              1,
+              25
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_2_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [265, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_2_max_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [265, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_3_minus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [240, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "greatHpPotion",
+              "item_3_number",
+              "item_3_max_number",
+              -1,
+              -50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_3_plus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [300, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "greatHpPotion",
+              "item_3_number",
+              "item_3_max_number",
+              1,
+              50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_3_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [270, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_3_max_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [270, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_4_minus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [495, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "fpPotion",
+              "item_4_number",
+              "item_4_max_number",
+              -1,
+              -10
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_4_plus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [565, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "fpPotion",
+              "item_4_number",
+              "item_4_max_number",
+              1,
+              10
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_4_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [530, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_4_max_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [530, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_5_minus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [495, 250],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "highFpPotion",
+              "item_5_number",
+              "item_5_max_number",
+              -1,
+              -20
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_5_plus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [565, 250],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "highFpPotion",
+              "item_5_number",
+              "item_5_max_number",
+              1,
+              20
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_5_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [530, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_5_max_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [530, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_6_minus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [535, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "greatFpPotion",
+              "item_6_number",
+              "item_6_max_number",
+              -1,
+              -40
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_6_plus",
+        "type": "sprite",
+        "type2": "item_page_1",
+        "position": [595, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "greatFpPotion",
+              "item_6_number",
+              "item_6_max_number",
+              1,
+              40
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_6_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [565, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_6_max_number",
+        "type": "text",
+        "type2": "item_page_1",
+        "position": [565, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_7_minus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [230, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "nectar",
+              "item_7_number",
+              "item_7_max_number",
+              -1,
+              -100
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_7_plus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [300, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "nectar",
+              "item_7_number",
+              "item_7_max_number",
+              1,
+              100
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_7_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [265, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_7_max_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [265, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_8_minus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [230, 250],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "curePowder",
+              "item_8_number",
+              "item_8_max_number",
+              -1,
+              -50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_8_plus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [300,250],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "curePowder",
+              "item_8_number",
+              "item_8_max_number",
+              1,
+              50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_8_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [265, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_8_max_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [265, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_9_minus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [230, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "dvUp",
+              "item_9_number",
+              "item_9_max_number",
+              -1,
+              -80
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_9_plus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [300, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "dvUp",
+              "item_9_number",
+              "item_9_max_number",
+              1,
+              80
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_9_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [265, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_9_max_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [265, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_10_minus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [495, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "attackUp",
+              "item_10_number",
+              "item_10_max_number",
+              -1,
+              -50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_10_plus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [565, 180],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "attackUp",
+              "item_10_number",
+              "item_10_max_number",
+              1,
+              50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_10_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [530, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_10_max_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [530, 180],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_11_minus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [495, 250],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "criticalUp",
+              "item_11_number",
+              "item_11_max_number",
+              -1,
+              -50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_11_plus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [565, 250],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "criticalUp",
+              "item_11_number",
+              "item_11_max_number",
+              1,
+              50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_11_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [530, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_11_max_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [530, 250],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      },
+      {
+        "id": "item_12_minus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [495, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_down.png",
+          "url": "ui/sound_option/vol_down.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "aronBeta",
+              "item_12_number",
+              "item_12_max_number",
+              -1,
+              -50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_12_plus",
+        "type": "sprite",
+        "type2": "item_page_2",
+        "position": [565, 320],
+        "params": {
+          "textureName": "ui/sound_option/vol_up.png",
+          "url": "ui/sound_option/vol_up.png",
+          "scale": [0.1, 0.1],
+          "anchor": [0.5, 0.5]
+        },
+        "events": [
+          {
+            "type": "pointertap",
+            "callback": "onItemNumberChanged",
+            "arguments": [
+              "aronBeta",
+              "item_12_number",
+              "item_12_max_number",
+              1,
+              50
+            ]
+          }
+      ],
+        "interactive": true,
+        "buttonMode": true
+      },
+      {
+        "id": "item_12_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [530, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "5",
+          "size": 16,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        }
+      },
+      {
+        "id": "item_12_max_number",
+        "type": "text",
+        "type2": "item_page_2",
+        "position": [530, 320],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "10",
+          "size": 16,
+          "color": "0xff6b46",
+          "anchor": [0.5, 0.5],
+          "padding": 16
+        },
+        "invisible": true
+      }
+    ]
+  }

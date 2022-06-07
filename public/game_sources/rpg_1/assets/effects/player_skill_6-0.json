@@ -1,0 +1,96 @@
+{"frames": {
+
+"player_skill_6_1.png":
+{
+	"frame": {"x":6,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_2.png":
+{
+	"frame": {"x":643,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_3.png":
+{
+	"frame": {"x":1285,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_7.png":
+{
+	"frame": {"x":1,"y":965,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_8.png":
+{
+	"frame": {"x":643,"y":965,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_9.png":
+{
+	"frame": {"x":1285,"y":965,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_10.png":
+{
+	"frame": {"x":648,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_11.png":
+{
+	"frame": {"x":1290,"y":1,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_15.png":
+{
+	"frame": {"x":1,"y":483,"w":640,"h":480},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":480},
+	"sourceSize": {"w":640,"h":480}
+},
+"player_skill_6_16.png":
+{
+	"frame": {"x":1,"y":1,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":640,"h":480}
+}},
+"animations": {
+	"player_skill_6": ["player_skill_6_1.png","player_skill_6_2.png","player_skill_6_3.png","player_skill_6_7.png","player_skill_6_8.png","player_skill_6_9.png","player_skill_6_10.png","player_skill_6_11.png","player_skill_6_15.png","player_skill_6_16.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "player_skill_6-0.png",
+	"format": "RGBA8888",
+	"size": {"w":1931,"h":1446},
+	"scale": "1",
+	"related_multi_packs": [ "player_skill_6-1.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:ce317d4f3791ba2708fe8a0dd7fa6162:a0ddc92c13e67aa6cd0e0706effc5a6d:7c24e4bbc89691348e3a164ee180271d$"
+}
+}

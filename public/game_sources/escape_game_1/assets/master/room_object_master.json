@@ -1,0 +1,82 @@
+[
+    {
+      "id": "tv",
+      "states": []
+    },
+    {
+      "id": "door",
+      "states": []
+    },
+    {
+      "id": "desk",
+      "states": []
+    },
+    {
+      "id": "bed",
+      "states": []
+    },
+    {
+      "id": "gas_stove",
+      "states": []
+    },
+    {
+      "id": "vending_machine",
+      "states": []
+    },
+    {
+      "id": "freezer",
+      "states": []
+    },
+    {
+      "id": "cabinet",
+      "states": []
+    },
+    {
+      "id": "barrel",
+      "states": []
+    },
+    {
+      "id": "grinder",
+      "states": []
+    },
+    {
+      "id": "closet",
+      "states": []
+    },
+    {
+      "id": "mirror",
+      "states": []
+    },
+    {
+      "id": "car",
+      "states": []
+    },
+    {
+      "id": "safe",
+      "states": []
+    },
+    {
+      "id": "balloon",
+      "states": []
+    },
+    {
+      "id": "chair",
+      "states": []
+    },
+    {
+      "id": "clock",
+      "states": []
+    },
+    {
+      "id": "bowl",
+      "states": []
+    },
+    {
+      "id": "pig",
+      "states": []
+    },
+    {
+      "id": "book_shelf",
+      "states": []
+    }
+  ]

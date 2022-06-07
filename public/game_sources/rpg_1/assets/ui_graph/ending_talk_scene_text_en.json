@@ -1,0 +1,319 @@
+{
+    "nodes": [
+      {
+        "id": "player_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "You",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "emperor_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Emperor",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "no_name",
+        "type": "message",
+        "position": [-230, -70],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "lose_emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Fate has chosen me...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "lose_player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Is this it?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "lose_narrator_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(It can't end here, you think, but your consciousness is fading away...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Strong...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "I'm fighting with a lot of people's thoughts, I can't lose!",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "I guess you can't go against the flow...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_player_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Finally, I ask you, what is the magic in this bracelet?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "It's better you don't know, because you won't be able to stay sane either.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_emperor_message_4",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Do me a favor... I need you to destroy that bracelet...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_player_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "What the hell are you talking about?",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "win_narrator_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(But there was no further reply from the emperor...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_emperor_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Strong...",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_player_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "I've got the best gear to take you down.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_player_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "We're done here.",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_narrator_message_1",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(The moment he raised his sword, the bracelet came off his arm and rolled towards the emperor...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_player_message_3",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "！？",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_emperor_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "Apparently you've been relying on your equipment too much, the bracelet has granted me power!",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "easy_win_narrator_message_2",
+        "type": "message",
+        "position": [0, 15],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "(The last thing you saw was an intense light emanating from the bracelet on the Emperor's arm...)",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

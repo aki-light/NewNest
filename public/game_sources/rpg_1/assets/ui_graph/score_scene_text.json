@@ -1,0 +1,112 @@
+{
+    "nodes": [
+      {
+        "id": "difficulty",
+        "type": "text",
+        "position": [220, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "なんいど",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "difficulty_easy",
+        "type": "text",
+        "position": [420, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "イージー",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        },
+        "invisible": true 
+      },
+      {
+        "id": "difficulty_normal",
+        "type": "text",
+        "position": [420, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ノーマル",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        },
+        "invisible": true
+      },
+      {
+        "id": "difficulty_hard",
+        "type": "text",
+        "position": [420, 280],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ハード",
+          "size": 22,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        },
+        "invisible": true 
+      },
+      {
+        "id": "cp_text",
+        "type": "text",
+        "position": [220, 330],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "せんとうりょく",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "turn_text",
+        "type": "text",
+        "position": [220, 380],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ターン数",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      },
+      {
+        "id": "boss_hp_text",
+        "type": "text",
+        "position": [220, 430],
+        "params": {
+          "family": "MPLUS1p-Regular",
+          "text": "ボス残りHP",
+          "size": 26,
+          "color": "0xffffff",
+          "anchor": [0.5, 0.5],
+          "padding": 16,
+          "wordWrap": true,
+          "wordWrapWidth": 640
+        } 
+      }
+    ]
+  }

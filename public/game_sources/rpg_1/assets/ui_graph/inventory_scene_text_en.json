@@ -1,0 +1,2195 @@
+{
+  "nodes": [
+    {
+      "id": "prepare_battle",
+      "type": "message",
+      "position": [0, 15],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "I'll equip for the last battle.",
+        "size": 26,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16,
+        "wordWrap": true,
+        "wordWrapWidth": 640
+      } 
+    },
+    {
+      "id": "hero_name",
+      "type": "message",
+      "position": [-230, -70],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "YOU",
+        "size": 26,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16,
+        "wordWrap": true,
+        "wordWrapWidth": 640
+      } 
+    },
+    {
+      "id": "inventory",
+      "type": "text",
+      "position": [320, 30],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "I N V E N T O R Y",
+        "size": 20,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "cpText",
+      "type": "text",
+      "type2": "equipment",
+      "position": [90, 215],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Combat Power",
+        "size": 15,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "difficulty",
+      "type": "text",
+      "type2": "equipment",
+      "position": [90, 265],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Difficulty",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "easy",
+      "type": "text",
+      "type2": "equipment",
+      "position": [90, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Easy",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "normal",
+      "type": "text",
+      "type2": "equipment",
+      "position": [90, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Normal",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "hard",
+      "type": "text",
+      "type2": "equipment",
+      "position": [90, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Hard",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible" : false
+    },
+    {
+      "id": "difficulty_2",
+      "type": "text",
+      "type2": "item",
+      "position": [75, 520],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Difficulty",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "easy_2",
+      "type": "text",
+      "type2": "item",
+      "position": [75, 545],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Easy",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "normal_2",
+      "type": "text",
+      "type2": "item",
+      "position": [75, 545],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Normal",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "hard_2",
+      "type": "text",
+      "type2": "item",
+      "position": [75, 545],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Hard",
+        "size": 16,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible" : false
+    },
+    {
+      "id": "cpText_2",
+      "type": "text",
+      "type2": "item",
+      "position": [75, 470],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Combat Power",
+        "size": 15,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment",
+      "type": "text",
+      "position": [250, 95],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "EQUIPMENT",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onInventoryTypeSelected",
+            "arguments": ["equipment"]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "equipment_marker",
+      "type": "sprite",
+      "position": [180, 95],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "item",
+      "type": "text",
+      "position": [410, 95],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "ITEM",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onInventoryTypeSelected",
+            "arguments": ["item"]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_marker",
+      "type": "sprite",
+      "position": [370, 95],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "weapon",
+      "type": "text",
+      "type2": "equipment",
+      "position": [130, 150],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "WEAPON",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected",
+            "arguments": [
+                "weapon_marker",
+              [
+                  "weapon_name_1",
+                  "weapon_name_2",
+                  "weapon_name_3",
+                  "weapon_name_4",
+                  "weapon_name_5",
+                  "weapon_name_6"
+              ],
+              {
+                  "markerName": "equipment_1_marker",
+                  "eName": "equipment_1_e",
+                  "textureName": "equipments/weapon08_03.png",
+                  "type": "weapon",
+                  "rank": "legendary",
+                  "hp": 0,
+                  "fp": 100,
+                  "atk": 5,
+                  "def": 0,
+                  "dv": 0,
+                  "hit": 1,
+                  "crit": 3
+              }
+            ]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "weapon_marker",
+      "type": "sprite",
+      "type2": "equipment",
+      "position": [72, 150],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "head",
+      "type": "text",
+      "type2": "equipment",
+      "position": [240, 150],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "HEAD",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected",
+            "arguments": [
+                "head_marker",
+              [
+                  "head_name_1",
+                  "head_name_2",
+                  "head_name_3",
+                  "head_name_4",
+                  "head_name_5",
+                  "head_name_6"
+              ],
+              {
+                  "markerName": "equipment_1_marker",
+                  "eName": "equipment_1_e",
+                  "textureName": "equipments/helm5_04.png",
+                  "type": "head",
+                  "rank": "legendary",
+                  "hp": 50,
+                  "fp": 400,
+                  "atk": 0,
+                  "def": 1,
+                  "dv": 2,
+                  "hit": 0,
+                  "crit": 1
+              }
+            ]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "head_marker",
+      "type": "sprite",
+      "type2": "equipment",
+      "position": [195, 150],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "body",
+      "type": "text",
+      "type2": "equipment",
+      "position": [340, 150],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "BODY",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected",
+            "arguments": [
+                "body_marker",
+              [
+                  "body_name_1",
+                  "body_name_2",
+                  "body_name_3",
+                  "body_name_4",
+                  "body_name_5",
+                  "body_name_6"
+              ],
+              {
+                  "markerName": "equipment_1_marker",
+                  "eName": "equipment_1_e",
+                  "textureName": "equipments/armor6_04.png",
+                  "type": "body",
+                  "rank": "legendary",
+                  "hp": 250,
+                  "fp": 100,
+                  "atk": 0,
+                  "def": 4,
+                  "dv": 0,
+                  "hit": 0,
+                  "crit": 0
+              }
+            ]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "body_marker",
+      "type": "sprite",
+      "type2": "equipment",
+      "position": [297, 150],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "arm",
+      "type": "text",
+      "type2": "equipment",
+      "position": [430, 150],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "ARM",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected",
+            "arguments": [
+                "arm_marker",
+              [
+                  "arm_name_1",
+                  "arm_name_2",
+                  "arm_name_3",
+                  "arm_name_4",
+                  "arm_name_5",
+                  "arm_name_6"
+              ],
+              {
+                  "markerName": "equipment_1_marker",
+                  "eName": "equipment_1_e",
+                  "textureName": "equipments/gauntlet_02.png",
+                  "type": "arm",
+                  "rank": "legendary",
+                  "hp": 50,
+                  "fp": 0,
+                  "atk": 2,
+                  "def": 1,
+                  "dv": 0,
+                  "hit": 4,
+                  "crit": 1
+              }
+            ]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "arm_marker",
+      "type": "sprite",
+      "type2": "equipment",
+      "position": [393, 150],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "foot",
+      "type": "text",
+      "type2": "equipment",
+      "position": [530, 150],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "FOOT",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected",
+            "arguments": [
+                "foot_marker",
+              [
+                  "foot_name_1",
+                  "foot_name_2",
+                  "foot_name_3",
+                  "foot_name_4",
+                  "foot_name_5",
+                  "foot_name_6"
+              ],
+              {
+                  "markerName": "equipment_1_marker",
+                  "eName": "equipment_1_e",
+                  "textureName": "equipments/greave1_02.png",
+                  "type": "foot",
+                  "rank": "legendary",
+                  "hp": 50,
+                  "fp": 0,
+                  "atk": 0,
+                  "def": 1,
+                  "dv": 4,
+                  "hit": 1,
+                  "crit": 1
+              }
+            ]
+          }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "foot_marker",
+      "type": "sprite",
+      "type2": "equipment",
+      "position": [487, 150],
+      "params": {
+        "textureName": "ui/marker.png",
+        "url": "ui/marker.png",
+        "scale": [0.4, 0.4],
+        "anchor": [0.5, 0.5]
+      },
+      "invisible": true
+    },
+    {
+      "id": "legendary",
+      "type": "text",
+      "type2": "equipment",
+      "position": [520, 350],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "LEGENDARY",
+        "size": 18,
+        "color": "0xff7f27",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "rare",
+      "type": "text",
+      "type2": "equipment",
+      "position": [520, 350],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "RARE",
+        "size": 18,
+        "color": "0x00a8f3",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "common",
+      "type": "text",
+      "type2": "equipment",
+      "position": [520, 350],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "COMMON",
+        "size": 18,
+        "color": "0xc4ff0e",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "unique",
+      "type": "text",
+      "type2": "equipment",
+      "position": [520, 350],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "UNIQUE",
+        "size": 18,
+        "color": "0xee55f0",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "equipment_hp_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 380],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "HP",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment_fp_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 400],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "FP",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment_atk_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 420],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "ATK",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment_def_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 440],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "DEF",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment_dv_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 460],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "DV",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment_hit_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 480],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "HIT",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "equipment_crit_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [490, 500],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "CRIT",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "weapon_name_1",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 245],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Dragon Sword",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected2",
+            "arguments": [{
+              "markerName": "equipment_1_marker",
+              "eName": "equipment_1_e",
+              "textureName": "equipments/weapon08_03.png",
+              "type": "weapon",
+              "rank": "legendary",
+              "hp": 0,
+              "fp": 100,
+              "atk": 5,
+              "def": 0,
+              "dv": 0,
+              "hit": 1,
+              "crit": 3
+            }]
+          }
+      ],
+      "interactive": true,
+      "invisible": true,
+      "buttonMode": true
+    },
+    {
+      "id": "weapon_name_2",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Eden Sword",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected2",
+            "arguments": [{
+              "markerName": "equipment_2_marker",
+              "eName": "equipment_2_e",
+              "textureName": "equipments/sword12_01.png",
+              "type": "weapon",
+              "rank": "rare",
+              "hp": 0,
+              "fp": 100,
+              "atk": 3,
+              "def": 0,
+              "dv": 0,
+              "hit": 0,
+              "crit": 4
+            }]
+          }
+      ],
+      "interactive": true,
+      "invisible": true,
+      "buttonMode": true
+    },
+    {
+      "id": "weapon_name_3",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 335],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Abyss Sword",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_3_marker",
+            "eName": "equipment_3_e",
+            "textureName": "equipments/weapon15_03.png",
+            "type": "weapon",
+            "rank": "rare",
+            "hp": 0,
+            "fp": 0,
+            "atk": 2,
+            "def": 1,
+            "dv": 2,
+            "hit": 0,
+            "crit": 2
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "weapon_name_4",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 380],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Long Sword",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_4_marker",
+            "eName": "equipment_4_e",
+            "textureName": "equipments/sword05.png",
+            "type": "weapon",
+            "rank": "common",
+            "hp": 0,
+            "fp": 0,
+            "atk": 3,
+            "def": 0,
+            "dv": 1,
+            "hit": 0,
+            "crit": 2
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "weapon_name_5",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 425],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Shinobi Sword",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_5_marker",
+            "eName": "equipment_5_e",
+            "textureName": "equipments/ninjatou_01.png",
+            "type": "weapon",
+            "rank": "unique",
+            "hp": 0,
+            "fp": 0,
+            "atk": 2,
+            "def": 0,
+            "dv": 0,
+            "hit": 4,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "weapon_name_6",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 470],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Crystal Sword",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_6_marker",
+            "eName": "equipment_6_e",
+            "textureName": "equipments/weapon11_01.png",
+            "type": "weapon",
+            "rank": "unique",
+            "hp": 100,
+            "fp": 0,
+            "atk": 1,
+            "def": 1,
+            "dv": 1,
+            "hit": 1,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "head_name_1",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 245],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Dragon Helmet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected2",
+            "arguments": [{
+              "markerName": "equipment_1_marker",
+              "eName": "equipment_1_e",
+              "textureName": "equipments/helm5_04.png",
+              "type": "head",
+              "rank": "legendary",
+              "hp": 50,
+              "fp": 400,
+              "atk": 0,
+              "def": 1,
+              "dv": 2,
+              "hit": 0,
+              "crit": 1
+            }]
+          }
+      ],
+      "interactive": true,
+      "invisible": true,
+      "buttonMode": true
+    },
+    {
+      "id": "head_name_2",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Eden Helmet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_2_marker",
+            "eName": "equipment_2_e",
+            "textureName": "equipments/helm6_01.png",
+            "type": "head",
+            "rank": "rare",
+            "hp": 0,
+            "fp": 300,
+            "atk": 1,
+            "def": 0,
+            "dv": 1,
+            "hit": 1,
+            "crit": 1
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "head_name_3",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 335],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Abyss Helmet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_3_marker",
+            "eName": "equipment_3_e",
+            "textureName": "equipments/helm3_03.png",
+            "type": "head",
+            "rank": "rare",
+            "hp": 50,
+            "fp": 200,
+            "atk": 1,
+            "def": 2,
+            "dv": 1,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "head_name_4",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 380],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Leather Helmet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_4_marker",
+            "eName": "equipment_4_e",
+            "textureName": "equipments/helm1_01.png",
+            "type": "head",
+            "rank": "common",
+            "hp": 0,
+            "fp": 300,
+            "atk": 0,
+            "def": 1,
+            "dv": 0,
+            "hit": 2,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "head_name_5",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 425],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Shinobi Hood",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_5_marker",
+            "eName": "equipment_5_e",
+            "textureName": "equipments/ninjahood2_01.png",
+            "type": "head",
+            "rank": "unique",
+            "hp": 100,
+            "fp": 0,
+            "atk": 0,
+            "def": 0,
+            "dv": 4,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "head_name_6",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 470],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Sun Circlet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_6_marker",
+            "eName": "equipment_6_e",
+            "textureName": "equipments/circlet.png",
+            "type": "head",
+            "rank": "unique",
+            "hp": 150,
+            "fp": 0,
+            "atk": 3,
+            "def": 0,
+            "dv": 0,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "body_name_1",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 245],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Dragon Armor",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected2",
+            "arguments": [{
+              "markerName": "equipment_1_marker",
+              "eName": "equipment_1_e",
+              "textureName": "equipments/armor6_04.png",
+              "type": "body",
+              "rank": "legendary",
+              "hp": 250,
+              "fp": 100,
+              "atk": 0,
+              "def": 4,
+              "dv": 0,
+              "hit": 0,
+              "crit": 0
+            }]
+          }
+      ],
+      "interactive": true,
+      "invisible": true,
+      "buttonMode": true
+    },
+    {
+      "id": "body_name_2",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Eden Armor",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_2_marker",
+            "eName": "equipment_2_e",
+            "textureName": "equipments/armor7_01.png",
+            "type": "body",
+            "rank": "rare",
+            "hp": 100,
+            "fp": 200,
+            "atk": 0,
+            "def": 2,
+            "dv": 0,
+            "hit": 1,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "body_name_3",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 335],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Abyss Armor",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_3_marker",
+            "eName": "equipment_3_e",
+            "textureName": "equipments/armor4_03.png",
+            "type": "body",
+            "rank": "rare",
+            "hp": 200,
+            "fp": 0,
+            "atk": 0,
+            "def": 3,
+            "dv": 0,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "body_name_4",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 380],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Leather Armor",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_4_marker",
+            "eName": "equipment_4_e",
+            "textureName": "equipments/armor1.png",
+            "type": "body",
+            "rank": "common",
+            "hp": 100,
+            "fp": 0,
+            "atk": 1,
+            "def": 3,
+            "dv": 0,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "body_name_5",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 425],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Shinobi Clothes",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_5_marker",
+            "eName": "equipment_5_e",
+            "textureName": "equipments/ninjaclothes_01.png",
+            "type": "body",
+            "rank": "unique",
+            "hp": 50,
+            "fp": 0,
+            "atk": 0,
+            "def": 1,
+            "dv": 0,
+            "hit": 4,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "body_name_6",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 470],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Elf Coat",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_6_marker",
+            "eName": "equipment_6_e",
+            "textureName": "equipments/clothes11_03.png",
+            "type": "body",
+            "rank": "unique",
+            "hp": 100,
+            "fp": 0,
+            "atk": 0,
+            "def": 0,
+            "dv": 0,
+            "hit": 0,
+            "crit": 4
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "arm_name_1",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 245],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Dragon Gauntlet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected2",
+            "arguments": [{
+              "markerName": "equipment_1_marker",
+              "eName": "equipment_1_e",
+              "textureName": "equipments/gauntlet_02.png",
+              "type": "arm",
+              "rank": "legendary",
+              "hp": 50,
+              "fp": 0,
+              "atk": 2,
+              "def": 1,
+              "dv": 0,
+              "hit": 4,
+              "crit": 1
+            }]
+          }
+      ],
+      "interactive": true,
+      "invisible": true,
+      "buttonMode": true
+    },
+    {
+      "id": "arm_name_2",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Eden Gauntlet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_2_marker",
+            "eName": "equipment_2_e",
+            "textureName": "equipments/gauntlet_01.png",
+            "type": "arm",
+            "rank": "rare",
+            "hp": 0,
+            "fp": 100,
+            "atk": 2,
+            "def": 1,
+            "dv": 0,
+            "hit": 2,
+            "crit": 1
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "arm_name_3",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 335],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Abyss Gauntlet",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_3_marker",
+            "eName": "equipment_3_e",
+            "textureName": "equipments/gauntlet_03.png",
+            "type": "arm",
+            "rank": "rare",
+            "hp": 100,
+            "fp": 0,
+            "atk": 0,
+            "def": 1,
+            "dv": 1,
+            "hit": 3,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "arm_name_4",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 380],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Leather Gloves",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_4_marker",
+            "eName": "equipment_4_e",
+            "textureName": "equipments/gloves1_01.png",
+            "type": "arm",
+            "rank": "common",
+            "hp": 0,
+            "fp": 200,
+            "atk": 0,
+            "def": 0,
+            "dv": 0,
+            "hit": 2,
+            "crit": 2
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "arm_name_5",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 425],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Shinobi Gloves",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_5_marker",
+            "eName": "equipment_5_e",
+            "textureName": "equipments/gloves1_04.png",
+            "type": "arm",
+            "rank": "unique",
+            "hp": 0,
+            "fp": 100,
+            "atk": 0,
+            "def": 0,
+            "dv": 4,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "arm_name_6",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 470],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Elf gloves",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_6_marker",
+            "eName": "equipment_6_e",
+            "textureName": "equipments/gloves2.png",
+            "type": "arm",
+            "rank": "unique",
+            "hp": 0,
+            "fp": 0,
+            "atk": 0,
+            "def": 1,
+            "dv": 2,
+            "hit": 2,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "foot_name_1",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 245],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Dragon Greaves",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+          {
+            "type": "pointertap",
+            "callback": "onEquipmentTypeSelected2",
+            "arguments": [{
+              "markerName": "equipment_1_marker",
+              "eName": "equipment_1_e",
+              "textureName": "equipments/greave1_02.png",
+              "type": "foot",
+              "rank": "legendary",
+              "hp": 50,
+              "fp": 0,
+              "atk": 0,
+              "def": 1,
+              "dv": 4,
+              "hit": 1,
+              "crit": 1
+            }]
+          }
+      ],
+      "interactive": true,
+      "invisible": true,
+      "buttonMode": true
+    },
+    {
+      "id": "foot_name_2",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 290],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Eden Greaves",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_2_marker",
+            "eName": "equipment_2_e",
+            "textureName": "equipments/greave2_01.png",
+            "type": "foot",
+            "rank": "rare",
+            "hp": 50,
+            "fp": 0,
+            "atk": 2,
+            "def": 0,
+            "dv": 3,
+            "hit": 0,
+            "crit": 1
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "foot_name_3",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 335],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Abyss Greaves",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_3_marker",
+            "eName": "equipment_3_e",
+            "textureName": "equipments/greave1_04.png",
+            "type": "foot",
+            "rank": "rare",
+            "hp": 0,
+            "fp": 200,
+            "atk": 0,
+            "def": 0,
+            "dv": 4,
+            "hit": 0,
+            "crit": 1
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "foot_name_4",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 380],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Leather Boots",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_4_marker",
+            "eName": "equipment_4_e",
+            "textureName": "equipments/boots1_01.png",
+            "type": "foot",
+            "rank": "common",
+            "hp": 100,
+            "fp": 0,
+            "atk": 0,
+            "def": 0,
+            "dv": 3,
+            "hit": 0,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "foot_name_5",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 425],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Shinobi Socks",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_5_marker",
+            "eName": "equipment_5_e",
+            "textureName": "equipments/ninjasocks_01.png",
+            "type": "foot",
+            "rank": "unique",
+            "hp": 0,
+            "fp": 200,
+            "atk": 1,
+            "def": 2,
+            "dv": 0,
+            "hit": 1,
+            "crit": 0
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "foot_name_6",
+      "type": "text",
+      "type2": "equipment_name",
+      "position": [291, 470],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Elf Boots",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onEquipmentTypeSelected2",
+          "arguments": [{
+            "markerName": "equipment_6_marker",
+            "eName": "equipment_6_e",
+            "textureName": "equipments/boots3_02.png",
+            "type": "foot",
+            "rank": "unique",
+            "hp": 50,
+            "fp": 0,
+            "atk": 0,
+            "def": 0,
+            "dv": 0,
+            "hit": 0,
+            "crit": 5
+          }]
+        }
+    ],
+    "interactive": true,
+    "invisible": true,
+    "buttonMode": true
+    },
+    {
+      "id": "equip_button_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [520, 545],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "EQUIP",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    },
+    {
+      "id": "unEquip_button_text",
+      "type": "text",
+      "type2": "equipment",
+      "position": [520, 545],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "OFF",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "invisible": true
+    },
+    {
+      "id": "item_name_1",
+      "type": "text",
+      "type2": "item_page_1",
+      "position": [145, 180],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "HP Potion",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/potion3_04.png",
+            "item_marker_1",
+            "Recover 300HP"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_2",
+      "type": "text",
+      "type2": "item_page_1",
+      "position": [145, 250],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "High HP Potion",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/potion1_05.png",
+            "item_marker_2",
+            "Recover 500HP"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_3",
+      "type": "text",
+      "type2": "item_page_1",
+      "position": [145, 320],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Great HP Potion",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/potion2_02.png",
+            "item_marker_3",
+            "Recover 1000HP"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_4",
+      "type": "text",
+      "type2": "item_page_1",
+      "position": [410, 180],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "FP Potion",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/potion3_01.png",
+            "item_marker_4",
+            "Recover 250FP"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_5",
+      "type": "text",
+      "type2": "item_page_1",
+      "position": [410, 250],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "High FP Potion",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/potion1_01.png",
+            "item_marker_5",
+            "Recover 400FP"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_6",
+      "type": "text",
+      "type2": "item_page_1",
+      "position": [430, 320],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Great FP Potion",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/potion2_03.png",
+            "item_marker_6",
+            "Recover 800FP"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_7",
+      "type": "text",
+      "type2": "item_page_2",
+      "position": [145, 180],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Nectar",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/aphrodisiac_01.png",
+            "item_marker_1",
+            "Completely Recover HP・FP・Health"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_8",
+      "type": "text",
+      "type2": "item_page_2",
+      "position": [145, 250],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Cure Powder",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/powder_04.png",
+            "item_marker_2",
+            "Recover Health"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_9",
+      "type": "text",
+      "type2": "item_page_2",
+      "position": [145, 320],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Anthocyanin",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/testtube_05.png",
+            "item_marker_3",
+            "Enhance DV for 4 turn"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_10",
+      "type": "text",
+      "type2": "item_page_2",
+      "position": [410, 180],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Creatine",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/testtube_02.png",
+            "item_marker_4",
+            "Enhance ATK for 3 turn"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_11",
+      "type": "text",
+      "type2": "item_page_2",
+      "position": [410, 250],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "GABA",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/testtube_04.png",
+            "item_marker_5",
+            "Enhance Crit for 3 turn"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "item_name_12",
+      "type": "text",
+      "type2": "item_page_2",
+      "position": [410, 320],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "Aron Beta",
+        "size": 18,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      },
+      "events": [
+        {
+          "type": "pointertap",
+          "callback": "onItemNameTapped",
+          "arguments": [
+            "items/supertesttube.png",
+            "item_marker_6",
+            "Reduces damage taken to 0 only once"
+          ]
+        }
+      ],
+      "interactive": true,
+      "buttonMode": true
+    },
+    {
+      "id": "battle_button_text",
+      "type": "text",
+      "position": [320, 590],
+      "params": {
+        "family": "MPLUS1p-Regular",
+        "text": "BATTLE",
+        "size": 24,
+        "color": "0xffffff",
+        "anchor": [0.5, 0.5],
+        "padding": 16
+      }
+    }
+  ]
+}
