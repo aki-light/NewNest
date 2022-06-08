@@ -1,25 +1,9 @@
 import GameManager from './managers/GameManager';
 import StartScene from './scenes/StartScene';
-import * as WebFont from 'webfontloader';
-import Resource from './Resources';
-import getConfig from "next/config";
-const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 export default class StartGame {
-    public static startGame(): void {
-        WebFont.load({
-            custom: {
-                families: [
-                    Resource.FontFamily.Default
-                ],
-                urls: [`${publicRuntimeConfig.staticFolder}/font.css`]
-            },
-            active: () => {
-              
-               StartGame.initGame();
-            },
-            timeout: 15000
-        });
+    public static startGame(): void {  
+        StartGame.initGame();
     }
 
     private static initGame() {
