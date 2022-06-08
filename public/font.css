@@ -1,1 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+@font-face {
+  font-family: 'MPLUS1p-Regular';
+  src: url('/game_sources/escape_game_1/assets/font/MPLUS1p-Regular.ttf') format('truetype');
+}
