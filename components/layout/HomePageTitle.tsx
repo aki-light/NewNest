@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
 const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();

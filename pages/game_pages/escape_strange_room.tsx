@@ -17,7 +17,9 @@ const EscapeStrangeRoom: NextPage = () => {
   const router = useRouter();
 
   router.events?.on("routeChangeComplete", () => {
-    router.reload();
+    setTimeout(() => {
+      router.reload();
+    }, 1000);
   });
 
   return (
