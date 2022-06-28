@@ -5,6 +5,7 @@ import Header from "../../components/layout/Header";
 import HowToPlay from "../../components/game_play_page/HowToPlay";
 import Paragraph from "../../components/game_play_page/Paragraph";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 const Game = dynamic(
   import("../../components/game_play_page/EscapeFromStrangeRoom"),
   {
@@ -16,9 +17,14 @@ const EscapeStrangeRoom: NextPage = () => {
   const title: string = "escape from strange room";
   const router = useRouter();
 
-  router.events?.on("routeChangeComplete", () => {
-    router.reload();
-  });
+  useEffect(() => {
+    router.events?.on("routeChangeComplete", () => {
+      console.log(location.pathname);
+      if (location.pathname !== "/game_pages/escape_strange_room/") {
+        router.reload();
+      }
+    });
+  }, []);
 
   return (
     <GamePlayPage title={title}>

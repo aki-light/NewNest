@@ -5,6 +5,7 @@ import Header from "../../components/layout/Header";
 import HowToPlay from "../../components/game_play_page/HowToPlay";
 import Paragraph from "../../components/game_play_page/Paragraph";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 const Game = dynamic(import("../../components/game_play_page/TheLastBattle"), {
   ssr: false,
 });
@@ -13,9 +14,14 @@ const TheLastBattle: NextPage = () => {
   const title: string = "the last battle";
   const router = useRouter();
 
-  router.events?.on("routeChangeComplete", () => {
-    router.reload();
-  });
+  useEffect(() => {
+    router.events?.on("routeChangeComplete", () => {
+      if (location.pathname !== "/game_pages/the_last_battle/") {
+        router.reload();
+      }
+    });
+  }, []);
+
   return (
     <GamePlayPage title={title}>
       <div className="min-h-screen" style={{ backgroundColor: "#222222" }}>
