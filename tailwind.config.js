@@ -11,7 +11,8 @@ module.exports = {
     colors: {
       skin: '#fffaef',
       white: '#ffffff',
-      brown: '#443322'
+      brown: '#443322',
+      blue: '#0062ff'
     }
   }
 }

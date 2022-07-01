@@ -6,6 +6,7 @@ import HowToPlay from "../../components/game_play_page/HowToPlay";
 import Paragraph from "../../components/game_play_page/Paragraph";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import Comment from "../../components/game_play_page/Comment";
 const Game = dynamic(
   import("../../components/game_play_page/EscapeFromStrangeRoom"),
   {
@@ -32,6 +33,8 @@ const EscapeStrangeRoom: NextPage = () => {
         <Header />
         <Game />
       </div>
+
+      <Comment collectionName="escapeStrangeRoomComments" />
 
       <HowToPlay title="注意">
         <Paragraph

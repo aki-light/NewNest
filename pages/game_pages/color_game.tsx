@@ -4,6 +4,7 @@ import Header from "../../components/layout/Header";
 import HowToPlay from "../../components/game_play_page/HowToPlay";
 import Paragraph from "../../components/game_play_page/Paragraph";
 import App from "../../public/game_sources/mini_game_1/App";
+import Comment from "../../components/game_play_page/Comment";
 
 const ColorGame: NextPage = () => {
   const title: string = "color game";
@@ -14,6 +15,8 @@ const ColorGame: NextPage = () => {
         <Header />
         <App />
       </div>
+
+      <Comment collectionName="colorGameComments" />
 
       <HowToPlay title="遊び方">
         <Paragraph
