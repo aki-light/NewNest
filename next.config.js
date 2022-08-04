@@ -6,7 +6,7 @@ const nextConfig = {
   publicRuntimeConfig: {
     staticFolder: process.env.GITHUB_PAGES ? '/NewNest' : '',
     apiHost:  process.env.GITHUB_PAGES 
-      ? 'https://new-nest.net/laravel_api' 
+      ? 'http://xs327932.xsrv.jp/laravel_api' 
       : 'http://127.0.0.1:8000',
   },
 }
