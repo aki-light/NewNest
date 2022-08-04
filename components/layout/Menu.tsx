@@ -14,8 +14,8 @@ export default function Menu({ diaPath }: { diaPath: string }) {
         </Link>
       </li>
       <li>
-        <Link href="mailto:myagpisapoopster@new-nest.net">
-          <a>メール</a>
+        <Link href="/contact">
+          <a>お問い合わせ</a>
         </Link>
       </li>
     </ul>
